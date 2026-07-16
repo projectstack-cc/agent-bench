@@ -1,6 +1,6 @@
 # Company Briefing
 
-*Compaction pass #7 — 2026-07-17. Regenerated from Tier 1 state, not
+*Compaction pass #8 — 2026-07-17. Regenerated from Tier 1 state, not
 appended to.*
 
 ---
@@ -39,14 +39,15 @@ until whatever's extracted is separated from the live system
 
 **Two Opportunity Court sessions have run.** The first (2026-07-15,
 external research only) verdict: build "Actions Ledger" — not yet started.
-The second (2026-07-17, weighing existing assets against fresh research)
-verdict: **verify `step3-ai`'s video-conversion pipeline** — since
-corrected: `step3-ai` was archived over AI-API-cost unit economics (no
-revenue yet to cover per-conversion API cost), not an unverified technical
-blocker as the board assumed. The real next question is a pricing model
-that covers API cost from the first paying customer, not "does the code
-run." Full detail: `products.md`, `strategic-direction.md`,
-`project-history.md`.
+The second (2026-07-17) initially verdicted `step3-ai`, then that
+candidate was **explicitly iceboxed by the founder** — archived over
+AI-API-cost cold-start economics (per-conversion cost with no revenue to
+cover it, and premium-only pricing rejected as a real conversion/refund/
+review risk). Revisit condition is specific: supporting revenue from
+elsewhere, not a fixed date. **No candidate is currently being actively
+pursued** — the board's second-ranked candidate (the nesting engine) still
+needs its own market-wedge research spike. Full detail: `products.md`,
+`strategic-direction.md`'s open question, `project-history.md`.
 
 ## What Reconnaissance found (High confidence, 16 projects)
 
@@ -88,7 +89,7 @@ Written directly into `agent-ceo.md`/`agent-qa-critic.md`. Full incidents:
 `components.md`, `knowledge-domains.md` remain empty. Whether
 `precision-maintenance`/`tapin` represent paying client revenue is
 unconfirmed. `xpanda-ops-platform`'s de-branding scope and timeline aren't
-defined. `step3-ai`'s actual per-conversion API cost and a viable covering
-price point haven't been modeled yet — the real next step, per the
-correction above. The Obsidian vault (13 projects, 17 skills) still hasn't
-been extracted before its retirement.
+defined. What the company actually pursues next for supporting revenue is
+undecided — see `strategic-direction.md`'s open question. The Obsidian
+vault (13 projects, 17 skills) still hasn't been extracted before its
+retirement.

@@ -69,26 +69,37 @@ Digital business cards, hosted under `projectstack-cc`. Monorepo
 (`apps`/`packages`), has its own `CHANGELOG.md`/`backlog.md`. Worth a
 direct status check before assuming where it actually stands.
 
-## step3-ai ("video-to-manual")
+## step3-ai ("video-to-manual") — ICEBOXED (2026-07-17)
 
-**Confidence: High** — reason for stalling confirmed directly by the
-founder (2026-07-17), correcting Opportunity Court II's "unverified, low
-confidence" framing. **The most complete, closest-to-shippable product
-found in this entire Recon pass** — full Stripe payments, Clerk auth,
-Supabase, a defined video-to-PDF-manual conversion pipeline (`/convert`,
-`/dashboard`, `/jobs` routes).
+**Status: explicitly iceboxed by the founder, not being pursued, until
+supporting revenue exists elsewhere to fund free-trial API cost.** Not
+"stalled" or "unclear" — a deliberate, current decision. Revisit
+condition is specific and checkable: another revenue source funding the
+company's AI-API exposure, not a fixed date and not "when the pipeline
+gets tested."
 
-**Why it actually stalled: unit economics, not a technical blocker.** The
-conversion pipeline depends on AI API calls with real per-conversion cost.
-The founder archived it deliberately — a cold-start cash-flow problem:
-running it at scale before there's paying revenue means absorbing API cost
-with no income to cover it, and there's no subscriber base yet to spread
-that cost across. **This is a different, and cheaper, question to resolve
-than Opportunity Court II assumed.** The board's "verify the pipeline
-works" test is still worth doing, but it was never the actual blocker —
-the real open question is a pricing/unit-economics model that covers
-per-conversion API cost from the first paying customer, not "does the code
-run."
+**Confidence: High** — reason for the original stall confirmed directly by
+the founder. **The most complete, closest-to-shippable product found in
+this entire Recon pass** — full Stripe payments, Clerk auth, Supabase, a
+defined video-to-PDF-manual conversion pipeline (`/convert`, `/dashboard`,
+`/jobs` routes). None of that technical completeness is in question — the
+icebox is a capital-allocation decision, not a verdict on the product.
+
+**Why it stalled originally, and why the icebox condition is specific:**
+the conversion pipeline depends on AI API calls with real per-conversion
+cost — a cold-start cash-flow problem, since running it before there's
+revenue means absorbing that cost with nothing to cover it. The founder
+considered and rejected premium-only pricing (paying before you can test
+the product is a real conversion/refund/review risk) and Bring-Your-Own-
+API-Key (undermines the product's own moat, see `patterns.md`). The actual
+constraint, stated directly: **day-1 paid conversions must cover the cost
+of any free trial usage** — not eventual volume, not accumulated
+recurring revenue. That's a real formula (minimum viable price ≥ cost per
+free trial use ÷ day-1 conversion rate), not yet modeled with real numbers
+— API cost basis and expected conversion rate are both still unknown.
+
+**Not the current priority for any executive** — `cto`/`cfo` should not
+spend further hours here until the revisit condition is met.
 
 **A real, reusable lesson from evaluating and rejecting Bring-Your-Own-API-
 Key:** the founder considered BYOK to shift API cost onto the customer,

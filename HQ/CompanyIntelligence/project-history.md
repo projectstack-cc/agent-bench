@@ -108,6 +108,19 @@ are already filed.
   (`patterns.md`) for any future AI-powered opportunity — a named risk
   category (AI-API cold start) and a real moat test (does BYOK make the
   product pointless). `products.md`'s step3-ai entry corrected accordingly.
+- **2026-07-17 — step3-ai iceboxed, explicit founder decision.** Not
+  pursued until supporting revenue exists elsewhere to fund free-trial API
+  cost — a specific, checkable revisit condition, not a fixed date or "when
+  the pipeline gets tested." Considered and rejected: premium-only pricing
+  (real conversion/refund/review risk with no way to sample quality first)
+  and BYOK (moat risk, see above). The actual constraint: day-1 paid
+  conversions must cover free-trial cost, not eventual volume — a real
+  formula (minimum viable price ≥ cost per free trial use ÷ day-1
+  conversion rate) with no real numbers yet (API cost basis and expected
+  conversion rate both unknown). This reopens the question of what the
+  company actually pursues next for supporting revenue — Opportunity Court
+  II's second-ranked candidate (the nesting engine) has its own unresolved
+  blocker (a market-wedge research spike, not yet run).
 
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)

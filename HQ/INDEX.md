@@ -45,15 +45,15 @@ a bug, flag it.
 
 | File | Contains | Confidence | Last compacted |
 |------|----------|------------|------------------|
-| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #7) |
+| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #8) |
 | `founder-profile.md` | Who the founder is (name: Steve/Stephen), strengths, constraints, employer | High — directly stated by founder | 2026-07-17 |
 | `company-thesis.md` | Why this company exists, its operating principles | High — directly stated | 2026-07-16 |
-| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 |
+| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (open question: what generates supporting revenue next) |
 | `capabilities.md` | What the executive roster + founder stack can build | Medium, High on the new desktop-capability entry | 2026-07-17 |
 | `project-history.md` | Known missions and projects | Mixed — see per-entry confidence | 2026-07-17 |
 | `success-history.md` | What's worked, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
 | `failure-history.md` | What's broken, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
-| `products.md` | Existing + future-candidate products | Mixed, High to Low-Medium per entry | 2026-07-17 (step3-ai stall reason corrected) |
+| `products.md` | Existing + future-candidate products | Mixed, High to Low-Medium per entry | 2026-07-17 (step3-ai iceboxed) |
 | `engines.md` | Reusable technical engines identified | High | 2026-07-17 |
 | `components.md` | Reusable components identified | Empty — pending a deeper per-project read | — |
 | `technical-assets.md` | Technical assets inventory (D1 limits, R2 pattern) | High | 2026-07-17 |
@@ -79,6 +79,16 @@ full detail.
 
 ## Recently changed
 
+- 2026-07-17 — **step3-ai iceboxed — no candidate currently active.**
+  Following Opportunity Court II's verdict and the AI-API-cost
+  correction, the founder made the actual capital-allocation call: icebox
+  step3-ai until supporting revenue exists elsewhere, rather than ship
+  premium-only (real conversion/refund/review risk) or BYOK (moat risk).
+  `products.md` updated to ICEBOXED status with a specific revisit
+  condition. `strategic-direction.md` gained an explicit open-question
+  section — no candidate is currently being pursued; the nesting engine
+  (rank 2) still needs its own wedge-research spike. `briefing.md`
+  recompacted (pass #8).
 - 2026-07-17 — **Opportunity Court II ran, then its central open question
   got answered and corrected.** Second board session (weighing existing
   assets against fresh research, `Recon/2026-07-17-INDEX.md`-informed)
@@ -86,8 +96,7 @@ full detail.
   reason it stalled was AI-API-cost unit economics, not an unverified
   technical blocker — `products.md` corrected, two new reusable patterns
   filed (`patterns.md`: AI-API cold start as a named risk category; BYOK
-  as a moat-destroying risk for thin AI-wrapper products). `briefing.md`
-  recompacted (pass #7).
+  as a moat-destroying risk for thin AI-wrapper products).
 - 2026-07-17 — **xpanda-ops-platform Recon, ownership resolved through
   three corrections same day — settled as a real future product
   candidate.** ERP Firewall exception exercised and independently verified

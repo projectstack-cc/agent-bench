@@ -6,6 +6,19 @@ forecast.
 
 ---
 
+## Open strategic question, current as of 2026-07-17: what generates supporting revenue first?
+
+`step3-ai` — Opportunity Court II's top-ranked candidate — is **iceboxed**,
+explicitly, until supporting revenue exists elsewhere to fund its AI-API
+cold-start cost (see `products.md`). That leaves no active candidate
+actually being pursued right now. The board's second-ranked candidate
+(the kerf-aware nesting engine extraction) has its own unresolved blocker
+— a market-wedge research spike that hasn't run yet, not a green light by
+default just because step3-ai stepped back. **This is the real open
+question for the next Opportunity Court or `coo`/`cfo` pass**: run the
+nesting engine's wedge spike, search for a genuinely new Category A
+candidate with real evidence, or something else — not yet decided.
+
 ## Current initiative: Headquarters (V2 architecture)
 
 As of 2026-07-16, the company is mid-migration from a V1 Tauri desktop
