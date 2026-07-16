@@ -33,6 +33,36 @@ amend Rule 6 properly later, not to keep granting one-off verbal exceptions.
 
 ---
 
+## 2026-07-17 — Standing scope for the `xpanda-ops-platform` exception: Recon only, permanently, until de-branded
+
+**Context:** `xpanda-ops-platform` was confirmed as a real future company
+product candidate (owned IP, plan to de-brand and bring to market — see
+`HQ/CompanyIntelligence/products.md`). This makes the exception above more
+consequential and longer-lived than a one-off audit, so its actual limits
+need to be explicit, not inferred.
+
+**Decision, per the founder directly:** access to `xpanda-ops-platform`
+stays **read-only Reconnaissance, and nothing more, for as long as it
+remains XPanda Foam's live system** — no writes, no execution, no
+dispatching any agent against it in any capacity beyond Recon's read-only
+analysis. Reason given: the platform has its own agents that execute real
+tasks against a live production system, and the founder cannot risk any
+failure to that codebase while it's still doing its actual job at XPanda
+Foam. This limit lifts only once the platform (or the specific piece being
+extracted) is stripped of XPanda Foam branding and separated from that
+live system — not before.
+
+**Also clarified:** the founder is open to extracting and monetizing
+individual tools/components from the platform (e.g., the bin-packing
+engine) **before** the whole platform is fully de-branded — de-branding
+doesn't have to happen all-at-once. Any such extraction is still bound by
+the read-only-until-separated rule above; "extracting a tool" means
+building a new, separate implementation informed by the founder's own
+knowledge of the pattern, not modifying or exporting code from the live
+repo.
+
+---
+
 ## 2026-07-16 — Obsidian vault retired outright (context, backfilled)
 
 Full detail: `project_files/hq-v2-architecture.md` §0 tension 4, §11. The

@@ -61,21 +61,28 @@ compacted version lives once there's enough here to compact.
   and `products.md` the same day. Raised a real IP/confidentiality
   question about the already-filed technical detail
   (`engines.md`/`patterns.md`/`technical-assets.md`).
-- **2026-07-17 — IP position clarified, same day.** The founder clarified
-  further: `xpanda-ops-platform` was built voluntarily, not at the
-  employer's direction, and the founder's own stated position is that they
-  hold the IP — XPanda Foam would need to negotiate a license if the
-  founder left. Filed as the founder's own understanding, not an
-  independently verified legal conclusion (`agent-security.md`'s standard
-  for legal risk statements applies directly here). Net effect: the
-  technical entries stay filed, framed as the founder's own accumulated
-  engineering knowledge with that light caveat, not as this company's
-  asset. Process lesson, independent of how the IP question resolves: the
-  ERP Firewall (Global Constitution Rule 6) was worked around with a
-  logged exception *before* either ownership fact was confirmed — its
-  caution was well-founded, not overly conservative. Future ERP-adjacent
-  exceptions should establish ownership/IP status as part of the
-  authorization conversation, not after findings are already filed.
+- **2026-07-17 — IP position clarified.** The founder stated: built
+  voluntarily, not at the employer's direction; they hold the IP; XPanda
+  Foam would need to negotiate a license if the founder left. Filed as a
+  risk statement per `agent-security.md`'s standard, not re-verified
+  against the actual employment contract.
+- **2026-07-17 — Resolved, with a real future opportunity attached.** The
+  founder confirmed ownership directly and stated the actual plan: once
+  complete, `xpanda-ops-platform` will be stripped of XPanda Foam branding
+  and brought to market as its own product. This closes the IP question
+  (not re-flagged further in `engines.md`/`patterns.md`/`technical-assets.md`
+  per `agent-security.md`'s own standard — raise a risk once, proceed once
+  heard) and elevates the platform from "retained founder knowledge" to a
+  real, filed future product candidate — see `products.md`. Arguably the
+  strongest opportunity in the company's history to date: production-
+  proven, not idea-stage.
+
+**Process lesson, independent of how this resolved:** the ERP Firewall
+(Global Constitution Rule 6) was worked around with a logged exception
+*before* ownership was confirmed. Its caution was well-founded, not overly
+conservative — future ERP-adjacent exceptions should establish ownership/
+IP status as part of the authorization conversation, not after findings
+are already filed.
 
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)

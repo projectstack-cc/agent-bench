@@ -5,13 +5,10 @@
 across projects — distinct from `success-history.md`/`failure-history.md`,
 which are process lessons.
 
-**Note on the `xpanda-ops-platform` entries below, resolved 2026-07-17:**
-XPanda Foam is the founder's employer, not an owned business. Per the
-founder directly, the platform was built voluntarily and the founder's own
-position is that they hold the IP — a stated understanding, not an
-independently verified legal conclusion (see `strategic-direction.md`'s
-Second Correction). Filed as the founder's own accumulated engineering
-knowledge with that light caveat, not as this company's own asset.
+**Note on the `xpanda-ops-platform` entries below:** built by the founder
+at XPanda Foam (employer, not owned business — not a company asset today),
+but the platform's IP belongs to the founder, confirmed directly, with a
+real plan to de-brand and bring it to market — see `products.md`.
 
 ---
 

@@ -5,15 +5,12 @@
 (reusable code) — these are operational limits and infrastructure patterns
 worth knowing as facts, not code to reuse directly.
 
-**Note on the entries below, resolved 2026-07-17:** both come from
-`xpanda-ops-platform` — XPanda Foam is the founder's employer, not an
-owned business. Per the founder directly, the platform was built
-voluntarily and the founder's own position is that they hold the IP — a
-stated understanding, not an independently verified legal conclusion (see
-`strategic-direction.md`'s Second Correction). The D1 limit is a fact
-about Cloudflare's platform regardless of this question; the R2 pattern
-is filed as the founder's own accumulated knowledge with the same light
-caveat as `engines.md`/`patterns.md`.
+**Note on the entries below:** both come from `xpanda-ops-platform`, built
+by the founder at XPanda Foam (employer, not owned business — not a
+company asset today), but the platform's IP belongs to the founder,
+confirmed directly, with a real plan to de-brand and bring it to market —
+see `products.md`. The D1 limit is also just a fact about Cloudflare's
+platform, independent of ownership.
 
 ---
 

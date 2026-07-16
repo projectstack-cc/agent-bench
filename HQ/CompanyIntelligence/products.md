@@ -7,21 +7,42 @@ guarantee of current completion state where noted as unread.
 
 ---
 
-## xpanda-ops-platform — NOT a company product
+## xpanda-ops-platform → a real future product candidate (de-branded)
 
-XPanda Foam is the founder's employer (salaried role), not an owned
-business — this platform isn't this company's product or asset, and
-doesn't count toward the $5,000/mo target. See `strategic-direction.md`'s
-Second Correction for the full account, including the founder's own
-stated IP position (built voluntarily, not employer-directed).
+**Confidence: High on the technical asset; the market plan is the
+founder's own stated intent, not yet a scoped mission.**
 
-**What's factually true regardless:** a real, continuously and actively
-developed production ERP (581 commit-log entries, `CHANGELOG.md` last
-touched the day before Recon ran, real production incidents found and
-fixed) — evidence of the founder's genuine engineering capability. The
-technical patterns from it are filed in `engines.md`/`patterns.md`/
-`technical-assets.md` as the founder's own accumulated knowledge, not as
-this company's product.
+Currently built and maintained by the founder as an employee of XPanda
+Foam (salaried role — not this company's asset today, generates no
+current revenue). **The founder owns the platform's IP and has a concrete
+plan: once complete, strip XPanda Foam branding and bring it to market as
+its own product.** This is arguably the strongest candidate in the entire
+company's history — a production-proven ERP (581 commits, real incidents
+found and fixed) built around a genuinely hard, generalizable technical
+core (the kerf-aware bin-packing engine, `engines.md`), not a from-scratch
+idea needing validation.
+
+**Not yet a mission:** "complete" isn't defined, no de-branding scope
+exists, and no Opportunity Court pass has evaluated this specific
+opportunity (market size for a generalized nesting/ERP tool, competitive
+landscape, pricing, target buyer beyond foam manufacturing). Worth a real
+`coo`/`product`/`cfo` evaluation when the founder is ready to scope it as
+an actual mission — this file records that the opportunity exists, it
+doesn't pre-judge that evaluation.
+
+**Extraction doesn't have to wait for the whole platform.** Per the
+founder directly, individual tools/components (the bin-packing engine
+being the clearest candidate) can be extracted and monetized before the
+entire platform is de-branded — de-branding isn't all-or-nothing.
+
+**Hard access constraint, standing (`HQ/DECISIONS.md`):** read-only
+Reconnaissance only, permanently, until whatever's being extracted is
+actually separated from the live system. No writes, no execution, no
+agent dispatch against the live repo in any other capacity — it runs its
+own task-executing agents against a real production system at XPanda
+Foam, and the founder cannot risk any failure there. Extraction means
+building a new, separate implementation informed by the founder's own
+knowledge of the pattern, not touching the live repo.
 
 ## ProjectStack Web Solutions
 

@@ -49,39 +49,36 @@ unconfirmed — the founder's answer was specifically about ProjectStack
 itself, not that site's billing status. Flagged rather than assumed either
 way.
 
-## Second correction — XPanda Foam (2026-07-17, resolved same day in two steps)
+## Second correction — XPanda Foam, and a real future opportunity (2026-07-17)
 
 The follow-up Recon pass on `xpanda-ops-platform` surfaced "Steve" as the
-system's operational owner; the founder confirmed being Steve. Two
-corrections followed, same day:
+system's operational owner; the founder confirmed being Steve, then
+corrected two things the same day:
 
 1. **Employment, not ownership.** XPanda Foam is the founder's employer
    (salaried), not a business they own — no revenue, no company-asset
    status, not part of the $5,000/mo target.
-2. **IP position, per the founder directly.** `xpanda-ops-platform` was
-   built voluntarily — the founder wasn't asked to build it. The founder's
-   own stated position: XPanda Foam would need to negotiate a license if
-   the founder left, implying the founder holds the IP, not the employer.
-   **Filed as the founder's understanding of the arrangement, a risk
-   statement rather than a verified legal conclusion** — employment
-   invention-assignment terms vary and this company can't verify the
-   actual contract — but a considered, plausible position, not a guess,
-   and not second-guessed further here.
+2. **The platform itself is the founder's own IP,** built voluntarily, not
+   at the employer's direction. **Confirmed directly, with a real plan:
+   once complete, the founder will strip XPanda Foam branding and bring it
+   to market as its own product.** This isn't a hypothetical or a
+   retained-knowledge caveat anymore — it's a concrete future company
+   opportunity. See `products.md` for the filed entry.
 
 **Net effect:** the technical entries in `engines.md`/`patterns.md`/
-`technical-assets.md` are reasonable to keep, framed as the founder's own
-accumulated engineering experience and knowledge — not as a company asset,
-and not without the light IP caveat above. `products.md`'s
-`xpanda-ops-platform` entry stays correctly excluded from the company's
-own product/asset base.
+`technical-assets.md` stand as the founder's own IP and real technical
+groundwork for that future product, not as a company asset today. The
+IP-status question is resolved by the founder's own confirmation and isn't
+re-flagged further in this company's filings — see `agent-security.md`'s
+own standard: raise a risk once, clearly, and proceed once the user has
+heard it and responded, rather than repeating it.
 
-**Worth keeping as a process lesson regardless of how the IP question
-resolves:** the ERP Firewall (Global Constitution Rule 6) was worked
-around with a logged, founder-authorized exception *before* either of
-these two facts was confirmed. The firewall's caution was well-founded,
-not overly conservative — future ERP-adjacent exceptions should establish
-ownership/IP status as part of the authorization conversation, not after
-findings are already filed.
+**Worth keeping as a process lesson regardless:** the ERP Firewall (Global
+Constitution Rule 6) was worked around with a logged, founder-authorized
+exception *before* ownership was confirmed. The firewall's caution was
+well-founded, not overly conservative — future ERP-adjacent exceptions
+should establish ownership/IP status as part of the authorization
+conversation, not after findings are already filed.
 
 ## Standing priorities (from the Company Thesis)
 

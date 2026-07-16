@@ -92,26 +92,19 @@ employed by (a salaried role) — not a business the founder owns.** It does
 not generate income for the founder beyond salary; no revenue, no
 ownership stake in the *company* stated or assumed.
 
-**On the platform's IP, per the founder directly:** `xpanda-ops-platform`
-was built voluntarily — the founder wasn't asked to build it — not as a
-directed part of the job. The founder's own position: if they left XPanda
-Foam, the company would need to negotiate a license, implying the founder,
-not the employer, holds the IP. **Filed as the founder's stated
-understanding of the arrangement, not an independently verified legal
-conclusion** — employment-agreement IP/invention-assignment terms vary
-significantly and can contradict an employee's own good-faith
-understanding even when the work was genuinely unprompted; this company
-has no visibility into the actual contract terms. This is a risk
-statement, not legal advice, per the standard `agent-security.md` already
-applies to exactly this kind of claim.
+**On the platform's IP:** built voluntarily, not at the employer's
+direction. **The founder has confirmed ownership directly and stated the
+actual plan: once complete, the platform will be stripped of XPanda Foam
+branding and brought to market as its own product.** This is a real,
+concrete future opportunity, not just retained personal knowledge — see
+`strategic-direction.md` and `products.md`.
 
 **What this establishes:** real, hands-on production-engineering
-experience — building and maintaining a live ERP with genuine technical
-depth — plus, per the founder's own stated position, personal ownership of
-what was built. Not a company asset (XPanda Foam isn't part of this
-company's portfolio), but the technical patterns from it are reasonable to
-treat as the founder's own accumulated knowledge, with the light caveat
-above carried forward rather than dropped.
+experience building and maintaining a live ERP, an owned technical asset
+(per the founder directly — this company doesn't need to independently
+verify employment-contract terms it has no visibility into, and won't
+keep re-flagging this after two direct confirmations), and a genuine
+future product candidate once de-branded.
 
 ## Known projects (verified via Reconnaissance, 2026-07-17 — supersedes the
 prior 14-day-old, unverified memory record below)
