@@ -7,6 +7,34 @@ guarantee of current completion state where noted as unread.
 
 ---
 
+## xpanda-ops-platform (XPanda Foam production ERP)
+
+**Confidence: High** — read directly via an authorized ERP Firewall
+exception (`Recon/xpanda-ops-platform-2026-07-17.md`, `HQ/DECISIONS.md`).
+
+**Ownership resolved 2026-07-17:** the founder confirmed being "Steve,"
+the operational owner referenced throughout the platform's `AGENTS.md`.
+This is the founder's own system, not client or third-party work — see
+`founder-profile.md` for the full framing.
+
+**What it is:** a real, continuously and actively developed production ERP
+for XPanda Foam, a foam-manufacturing business — Jobs, Logistics, QC,
+Safety, Admin, and Reporting modules, a disciplined numbered-prompt change
+process (past P248), 581 commit-log entries, `CHANGELOG.md` last touched
+the day before this Recon ran. **Not a scaffold or prototype** — real
+production incidents have been found and fixed (a D1 scaling limit, a
+deploy-asset cache bug, a Windows-specific build patch). Contains the
+single most technically sophisticated reusable asset found across both
+Recon passes (see `engines.md`'s kerf-aware bin-packing engine entry).
+
+**Not established:** XPanda Foam's revenue or profitability — not stated
+by the founder, not assumed here, and not counted toward the company's
+$5,000/mo portfolio target unless explicitly said to be.
+
+**In progress:** a "strangler fig" React/Next.js modernization pilot
+(one module ported, rest on the stable legacy vanilla-JS stack) — see
+`patterns.md`.
+
 ## ProjectStack Web Solutions
 
 **Confidence: High on existence, direct from the founder on status.** A

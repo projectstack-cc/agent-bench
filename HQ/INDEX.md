@@ -45,20 +45,20 @@ a bug, flag it.
 
 | File | Contains | Confidence | Last compacted |
 |------|----------|------------|------------------|
-| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #2) |
-| `founder-profile.md` | Who the founder is, strengths, constraints | High — directly stated by founder | 2026-07-17 (added stable/temporary split, ProjectStack context) |
+| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #3) |
+| `founder-profile.md` | Who the founder is (name: Steve/Stephen), strengths, constraints | High — directly stated by founder | 2026-07-17 (name logged, XPanda Foam context, stable/temporary split) |
 | `company-thesis.md` | Why this company exists, its operating principles | High — directly stated | 2026-07-16 |
-| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (corrected "zero operational history" framing) |
+| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (two corrections: ProjectStack, XPanda Foam) |
 | `capabilities.md` | What the executive roster + founder stack can build | Medium, High on the new desktop-capability entry | 2026-07-17 |
 | `project-history.md` | Known missions and projects | Mixed — see per-entry confidence | 2026-07-17 |
 | `success-history.md` | What's worked, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
 | `failure-history.md` | What's broken, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
-| `products.md` | Existing shipped products | Mixed, High to Low-Medium per entry — populated 2026-07-17 via Recon | 2026-07-17 |
-| `engines.md` | Reusable technical engines identified | High — populated 2026-07-17 via Recon | 2026-07-17 |
+| `products.md` | Existing shipped products | Mixed, High to Low-Medium per entry | 2026-07-17 |
+| `engines.md` | Reusable technical engines identified | High | 2026-07-17 |
 | `components.md` | Reusable components identified | Empty — pending a deeper per-project read | — |
-| `technical-assets.md` | Technical assets inventory | Empty — pending a deeper per-project read | — |
+| `technical-assets.md` | Technical assets inventory (D1 limits, R2 pattern) | High | 2026-07-17 |
 | `knowledge-domains.md` | Domains the company has real expertise in | Empty — pending a deeper per-project read | — |
-| `patterns.md` | Repeated architectural patterns across projects | High — populated 2026-07-17 via Recon | 2026-07-17 |
+| `patterns.md` | Repeated architectural patterns across projects | High | 2026-07-17 |
 | `lessons/` | Curated lessons, organized by domain | Empty — pending first Debrief | — |
 
 ## Skills (`HQ/Skills/`)
@@ -71,17 +71,27 @@ vault itself.
 
 ## Recon (`Recon/`)
 
-15 project reports + `2026-07-17-INDEX.md`, first real Reconnaissance
-sweep. See `HQ/CompanyIntelligence/project-history.md` for the summary
-entry and `Recon/2026-07-17-INDEX.md` for full detail.
+16 project reports (15 from the `.dev`-folder sweep + `xpanda-ops-platform`
+under an ERP Firewall exception) + `2026-07-17-INDEX.md`. See
+`HQ/CompanyIntelligence/project-history.md` for the summary entries and
+`Recon/2026-07-17-INDEX.md`/`Recon/xpanda-ops-platform-2026-07-17.md` for
+full detail.
 
 ## Recently changed
 
-- 2026-07-17 — First real Reconnaissance sweep (15 projects). `products.md`,
-  `engines.md`, `patterns.md` populated for the first time; `capabilities.md`,
-  `founder-profile.md`, `strategic-direction.md`, `project-history.md`
-  updated with real findings. `HQ/DECISIONS.md` created (first entry: ERP
-  Firewall exception for Recon on `xpanda-ops-platform`). `FolderDives/`
-  renamed to `Recon/`.
+- 2026-07-17 — **xpanda-ops-platform Recon + ownership resolved.** ERP
+  Firewall exception exercised and independently verified (no repo files
+  modified, no `CompanyIntelligence/` file written by the pass itself)
+  before reporting. Founder confirmed being "Steve" — `xpanda-ops-platform`
+  is the founder's own business (XPanda Foam), not client work. Founder's
+  full name (Steve/Stephen) logged in `founder-profile.md` to prevent
+  future confusion. `technical-assets.md` populated for the first time;
+  `engines.md`/`patterns.md`/`products.md`/`strategic-direction.md`
+  extended; `briefing.md` recompacted (pass #3).
+- 2026-07-17 — First real Reconnaissance sweep (15 projects, `.dev` folder
+  + GitHub). `products.md`, `engines.md`, `patterns.md` populated for the
+  first time; `capabilities.md`, `founder-profile.md`,
+  `strategic-direction.md`, `project-history.md` updated with real
+  findings. `HQ/DECISIONS.md` created. `FolderDives/` renamed to `Recon/`.
 - 2026-07-16 — HQ structure created (migration from `Agents/`), this INDEX
   generated for the first time, Company Intelligence skeleton seeded.

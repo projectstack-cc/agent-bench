@@ -42,6 +42,19 @@ compacted version lives once there's enough here to compact.
   `xpanda-ops-platform` Recon authorized by the founder as a follow-up,
   overriding the ERP Firewall for this read-only pass specifically — see
   `HQ/DECISIONS.md`.
+- **2026-07-17 — xpanda-ops-platform Recon + ownership resolved.** ERP
+  Firewall exception exercised (`HQ/DECISIONS.md`); verified independently
+  (mtime-checked) that nothing in that repo was modified and no
+  `CompanyIntelligence/` file was written by the pass itself, before
+  reporting findings. Confirmed a real, actively-developed production ERP
+  — 581 commits, real production incidents fixed, the single most
+  technically sophisticated reusable asset found across both Recon passes
+  (a kerf-aware bin-packing engine). The report's one open question — is
+  "Steve" (the system's named operational owner) the founder or a
+  client/partner — was resolved directly by the founder: **"I am Steve."**
+  This is the founder's own business (XPanda Foam), not client work. Full
+  batch filed into `products.md`, `engines.md`, `patterns.md`,
+  `technical-assets.md`, `founder-profile.md`, `strategic-direction.md`.
 
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)

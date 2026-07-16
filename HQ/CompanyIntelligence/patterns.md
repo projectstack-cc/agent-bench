@@ -42,6 +42,63 @@ explicitly asking "was a decisions log kept for this mission" once real
 missions start running, rather than losing this habit under HQ's more
 formal structure.
 
+## "Strangler fig" incremental modernization — live, in production
+
+**Confidence: High.** Source: `xpanda-ops-platform`. The platform's stated
+architecture is deliberately anti-framework (vanilla HTML/JS, `AGENTS.md`
+explicitly bans introducing React platform-wide) — but a scoped
+React/Next.js pilot ("Cutting v2") runs in parallel, isolated under a `/v2`
+path prefix with its own deploy pipeline, alongside the stable legacy
+system. A real, deliberate incremental-migration pattern: prove a new
+stack on one bounded module before committing platform-wide. Worth
+naming explicitly as a company capability for any future "should we
+modernize this legacy piece" decision — more mature than a from-scratch
+rewrite, and already validated in production.
+
+## Server-side recomputation of client-submitted calculations
+
+**Confidence: High.** Source: `xpanda-ops-platform` — the block-nesting
+save route explicitly "recomputes authoritatively" server-side rather than
+trusting client math. A real integrity/security pattern worth carrying
+into any future product doing client-side computation with server
+persistence.
+
+## Next.js-on-Cloudflare-Workers-via-OpenNext — a named debugging reference
+
+**Confidence: High.** Source: `xpanda-ops-platform`. A nontrivial
+integration many teams struggle with, proven working here with specific,
+dated bugs found and fixed: `basePath` vs. `assetPrefix` asset-routing
+mismatches (two separate incidents), a stale-build asset cache bug from an
+idempotency guard skipping a required file move, a missing CSS import
+causing a fully-unstyled deploy, and a Windows-specific patch required for
+`@opennextjs/aws` v0.3.x. The next Next.js-on-Workers migration this
+company does shouldn't have to rediscover any of these — check this entry
+first.
+
+## A project-level constitution, independently convergent with HQ's own design
+
+**Confidence: High.** `xpanda-ops-platform`'s `AGENTS.md` is functionally a
+project-scoped constitution — explicit scope guardrails ("established,
+treat as stable" vs. "intentionally not yet built"), tracked technical
+debt with an explicit "don't fix unless asked" framing, and a strict
+numbered-prompt implementation/changelog discipline. It predates this
+session's HQ/V2 architecture entirely and independently arrived at similar
+governance instincts. Worth reading directly — not just filing as a
+curiosity — the next time `HQ/Executives/_constitution.md` or the
+Deployment/Debrief templates get revised; it's a working, production-
+tested reference, not a theoretical design.
+
+## Versioned, hash-verified external skill dependencies (mechanism only)
+
+**Confidence: High on the mechanism; explicitly NOT a company asset in
+content.** `xpanda-ops-platform` fetches `.agents/skills/*` from a
+third-party GitHub repo (`Leonxlnx/taste-skill`) via a hash-verified
+`skills-lock.json`, not authored in-house. The skill *content* is not
+company IP and must never be filed as such — but the lockfile *mechanism*
+itself (versioned, hash-verified external dependencies for agent skills)
+is a pattern worth knowing about if `HQ/Skills/` ever needs to reference
+external, non-authored skills alongside its own.
+
 ## Historical note, not a live pattern
 
 Pre-HQ, a `Agents/` CEO-harness folder (the same convention this

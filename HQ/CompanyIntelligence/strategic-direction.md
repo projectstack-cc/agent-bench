@@ -49,6 +49,35 @@ unconfirmed — the founder's answer was specifically about ProjectStack
 itself, not that site's billing status. Flagged rather than assumed either
 way.
 
+## Second correction — XPanda Foam (2026-07-17)
+
+**This one matters more than the ProjectStack correction.** The follow-up
+Recon pass on `xpanda-ops-platform` (ERP Firewall exception,
+`HQ/DECISIONS.md`) surfaced "Steve" as the system's operational owner. The
+founder confirmed directly: **"I am Steve."** `xpanda-ops-platform` is the
+founder's own production ERP for XPanda Foam, a real, actively-operated
+manufacturing business — not a portfolio side project, not client work for
+someone else.
+
+**What this changes:** the audit's headline finding (zero missions, zero
+shipped products, zero real revenue) was written entirely from HQ's own
+history, with no visibility into a real, ongoing business the founder
+already operates outside this company's own mission structure. This
+company's `$5,000/mo` target and its Opportunity Court process are about
+*new* portfolio opportunities — they were never meant to, and don't,
+already account for XPanda Foam. That framing itself still holds. What
+doesn't hold is any implicit assumption that the founder has no real
+operational experience or production-system track record to draw on —
+they do, directly, via a system with 581 commit-log entries and real
+production incidents already found and fixed. `cto`/`cfo` evaluating
+future opportunities should treat this as evidence of real operational
+capability, not discount it as "outside the portfolio, doesn't count."
+
+**What this does NOT change:** XPanda Foam's revenue/profitability is not
+stated and is not assumed here. It is not counted toward the $5,000/mo
+target unless the founder explicitly says to. See `founder-profile.md` for
+the full framing.
+
 ## Standing priorities (from the Company Thesis)
 
 1. Every engineering hour spent should trace to a real, evidence-backed
