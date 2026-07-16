@@ -19,6 +19,9 @@ export class MCPConnector implements VaultConnector {
   async loadAgent(_name: string): Promise<string> {
     throw new Error('MCP connector not yet implemented (Phase 7)')
   }
+  async loadConstitution(): Promise<string> {
+    throw new Error('MCP connector not yet implemented (Phase 7)')
+  }
   async loadProjectContext(_project: string): Promise<ProjectContext> {
     throw new Error('MCP connector not yet implemented (Phase 7)')
   }
@@ -30,5 +33,8 @@ export class MCPConnector implements VaultConnector {
   }
   async writeSessionLog(_log: SessionLog): Promise<void> {
     throw new Error(`MCP connector not yet implemented (Phase 7) — key: ${this.apiKey.slice(0, 4)}***`)
+  }
+  async writeMemory(_agent: string, _project: string, _content: string): Promise<void> {
+    throw new Error('MCP connector not yet implemented (Phase 7)')
   }
 }

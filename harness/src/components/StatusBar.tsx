@@ -1,7 +1,7 @@
 import { useHarnessStore } from '../store/harness'
 
 export function StatusBar() {
-  const { agents, vaultMode, activeProject, vaultPath } = useHarnessStore()
+  const { agents, vaultMode, activeProject, vaultPath, workspaceRoot } = useHarnessStore()
 
   const vaultLabel = vaultMode === 'direct'
     ? vaultPath ? 'direct' : 'direct (no path set)'
@@ -42,6 +42,10 @@ export function StatusBar() {
 
       <span style={{ fontSize: '0.65rem', color: 'var(--color-text-muted)', fontFamily: 'var(--font-mono)' }}>
         project: {activeProject}
+      </span>
+
+      <span style={{ fontSize: '0.65rem', color: workspaceRoot ? 'var(--color-primary)' : 'var(--color-text-muted)', fontFamily: 'var(--font-mono)' }}>
+        {workspaceRoot ? `workspace: ${workspaceRoot}` : 'no workspace open'}
       </span>
 
       <span style={{ flex: 1 }} />

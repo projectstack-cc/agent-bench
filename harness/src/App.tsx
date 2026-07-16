@@ -1,14 +1,23 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { TitleBar } from './components/TitleBar'
 import { AgentSidebar } from './components/AgentSidebar'
+import { ExplorerPanel } from './components/ExplorerPanel'
 import { DispatchPanel } from './components/DispatchPanel'
 import { PromptPreview } from './components/PromptPreview'
+import { ExecutionPanel } from './components/ExecutionPanel'
+import { FilePanel } from './components/FilePanel'
 import { MemoryPanel } from './components/MemoryPanel'
 import { StatusBar } from './components/StatusBar'
+import { useHarnessStore } from './store/harness'
 
 export default function App() {
   const [showSettings, setShowSettings] = useState(false)
   const [showLogs, setShowLogs] = useState(false)
+  const { centerTab, setCenterTab, initTaskBoard } = useHarnessStore()
+
+  useEffect(() => {
+    void initTaskBoard()
+  }, [initTaskBoard])
 
   return (
     <div
@@ -20,32 +29,76 @@ export default function App() {
         overflow: 'hidden',
       }}
     >
-      {/* Title bar */}
       <TitleBar
         onOpenSettings={() => setShowSettings(true)}
         onOpenLogs={() => setShowLogs(true)}
       />
 
-      {/* Main area */}
       <div style={{ display: 'flex', flex: 1, minHeight: 0 }}>
-
-        {/* Left sidebar — agent roster */}
-        <AgentSidebar />
-
-        {/* Center — dispatch + prompt preview */}
-        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minWidth: 0 }}>
-          <DispatchPanel />
-          <PromptPreview />
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            width: '220px',
+            flexShrink: 0,
+            borderRight: '1px solid var(--color-border)',
+          }}
+        >
+          <ExplorerPanel />
+          <AgentSidebar />
         </div>
 
-        {/* Right panel — memory + vault/api selectors */}
+        {/* Center — dispatch + tabbed bottom panel */}
+        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minWidth: 0 }}>
+          <DispatchPanel />
+
+          {/* Tab bar */}
+          <div
+            style={{
+              display: 'flex',
+              borderBottom: '1px solid var(--color-border)',
+              background: 'var(--color-surface)',
+              flexShrink: 0,
+            }}
+          >
+            {(['preview', 'output', 'file'] as const).map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setCenterTab(tab)}
+                style={{
+                  padding: 'var(--space-2) var(--space-4)',
+                  fontSize: 'var(--text-xs)',
+                  fontWeight: 500,
+                  fontFamily: 'var(--font-sans)',
+                  color: centerTab === tab ? 'var(--color-text)' : 'var(--color-text-muted)',
+                  background: 'transparent',
+                  border: 'none',
+                  borderBottom: centerTab === tab
+                    ? '1px solid var(--color-accent)'
+                    : '1px solid transparent',
+                  marginBottom: '-1px',
+                  cursor: 'pointer',
+                  textTransform: 'capitalize',
+                  letterSpacing: '0.04em',
+                  transition: 'color 0.1s',
+                }}
+              >
+                {tab === 'preview' ? 'Prompt Preview' : tab === 'output' ? 'Execution Output' : 'File'}
+              </button>
+            ))}
+          </div>
+
+          {/* Tab content */}
+          <div style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}>
+            {centerTab === 'preview' ? <PromptPreview /> : centerTab === 'output' ? <ExecutionPanel /> : <FilePanel />}
+          </div>
+        </div>
+
         <MemoryPanel />
       </div>
 
-      {/* Status bar */}
       <StatusBar />
 
-      {/* Settings modal placeholder */}
       {showSettings && (
         <div
           style={{
@@ -71,7 +124,7 @@ export default function App() {
               Settings
             </h2>
             <p style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-sm)' }}>
-              Vault connection, API keys, and agent configuration — coming in Phase 3.
+              Vault connection, API keys, and agent configuration — coming soon.
             </p>
             <button className="btn btn-secondary" onClick={() => setShowSettings(false)} style={{ marginTop: 'var(--space-4)' }}>
               Close
@@ -80,7 +133,6 @@ export default function App() {
         </div>
       )}
 
-      {/* Logs modal placeholder */}
       {showLogs && (
         <div
           style={{
@@ -106,7 +158,7 @@ export default function App() {
               Session Logs
             </h2>
             <p style={{ color: 'var(--color-text-muted)', fontSize: 'var(--text-sm)' }}>
-              Session history viewer — coming in Phase 6.
+              Session history viewer — coming soon.
             </p>
             <button className="btn btn-secondary" onClick={() => setShowLogs(false)} style={{ marginTop: 'var(--space-4)' }}>
               Close

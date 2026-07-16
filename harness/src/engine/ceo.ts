@@ -32,9 +32,10 @@ export async function assemblePrompt(params: AssembleParams): Promise<AssembleRe
   const challenges = detectChallenges(task)
 
   // 3. Load from vault
-  const agentDef    = await vault.loadAgent(agent)
-  const projectCtx  = await vault.loadProjectContext(project)
-  const memories    = await vault.loadMemories(agent, project)
+  const constitution = await vault.loadConstitution()
+  const agentDef      = await vault.loadAgent(agent)
+  const projectCtx    = await vault.loadProjectContext(project)
+  const memories      = await vault.loadMemories(agent, project)
 
   // 4. Build prompt (CEO Dispatch format — matches ceo.py output exactly)
   const timestamp = new Date().toISOString().replace('T', ' ').slice(0, 19)
@@ -45,12 +46,19 @@ export async function assemblePrompt(params: AssembleParams): Promise<AssembleRe
     `**Project:** ${project}`,
     `**Task:** ${task}`,
     `**Time:** ${timestamp}`,
+  ]
+
+  if (constitution) {
+    promptParts.push('', '---', '', '# Global Constitution (applies to every agent)', constitution)
+  }
+
+  promptParts.push(
     '',
     '---',
     '',
     '# Agent Definition',
     agentDef,
-  ]
+  )
 
   const ctxSections: string[] = []
   if (projectCtx.prd)         ctxSections.push(`## PRD\n${projectCtx.prd}`)

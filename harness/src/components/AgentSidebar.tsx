@@ -9,6 +9,14 @@ const AGENT_LABELS: Record<string, string> = {
   research:   'Research',
   content:    'Content',
   'ue-dev':   'UE Dev',
+  ops:        'Ops',
+  coo:        'COO',
+  cto:        'CTO',
+  cfo:        'CFO',
+  marketing:  'Marketing',
+  product:    'Product',
+  ux:         'UX',
+  security:   'Security',
   librarian:  'Librarian',
   'zernio-mcp': 'Zernio MCP',
 }
@@ -71,10 +79,9 @@ export function AgentSidebar() {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        borderRight: '1px solid var(--color-border)',
         background: 'var(--color-surface)',
-        width: '160px',
         flexShrink: 0,
+        maxHeight: '260px',
         overflowY: 'auto',
       }}
     >
