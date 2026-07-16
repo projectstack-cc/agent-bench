@@ -84,6 +84,20 @@ conservative — future ERP-adjacent exceptions should establish ownership/
 IP status as part of the authorization conversation, not after findings
 are already filed.
 
+- **2026-07-17 — Opportunity Court II.** Second board session, this time
+  reading Company Intelligence as the briefing input (per the Headquarters
+  design) instead of researching from a blank slate. Weighed existing
+  internal assets (`step3-ai`, the nesting engine, `pdf-tools`/
+  `packslip-pro`, `subscription-worker` as supporting infra, ProjectStack
+  as a negative distribution data point) against freshly-researched new
+  opportunities, on equal evidentiary footing. **Verdict: verify
+  `step3-ai`'s video-conversion pipeline — a 7-day test, not a 30-day
+  build.** No new external candidate cleared this board's evidence bar
+  this session, reported honestly rather than padded. The nesting engine
+  (real IP, real market, no confirmed wedge) was sequenced second, not
+  rejected. Full transcript published as an artifact; underlying research
+  is the reusable output if either candidate becomes a real mission.
+
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)
 
