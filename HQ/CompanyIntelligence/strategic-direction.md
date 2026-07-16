@@ -49,34 +49,39 @@ unconfirmed — the founder's answer was specifically about ProjectStack
 itself, not that site's billing status. Flagged rather than assumed either
 way.
 
-## Second correction — XPanda Foam (2026-07-17)
+## Second correction — XPanda Foam (2026-07-17, resolved same day in two steps)
 
-**This one matters more than the ProjectStack correction.** The follow-up
-Recon pass on `xpanda-ops-platform` (ERP Firewall exception,
-`HQ/DECISIONS.md`) surfaced "Steve" as the system's operational owner. The
-founder confirmed directly: **"I am Steve."** `xpanda-ops-platform` is the
-founder's own production ERP for XPanda Foam, a real, actively-operated
-manufacturing business — not a portfolio side project, not client work for
-someone else.
+The follow-up Recon pass on `xpanda-ops-platform` surfaced "Steve" as the
+system's operational owner; the founder confirmed being Steve. Two
+corrections followed, same day:
 
-**What this changes:** the audit's headline finding (zero missions, zero
-shipped products, zero real revenue) was written entirely from HQ's own
-history, with no visibility into a real, ongoing business the founder
-already operates outside this company's own mission structure. This
-company's `$5,000/mo` target and its Opportunity Court process are about
-*new* portfolio opportunities — they were never meant to, and don't,
-already account for XPanda Foam. That framing itself still holds. What
-doesn't hold is any implicit assumption that the founder has no real
-operational experience or production-system track record to draw on —
-they do, directly, via a system with 581 commit-log entries and real
-production incidents already found and fixed. `cto`/`cfo` evaluating
-future opportunities should treat this as evidence of real operational
-capability, not discount it as "outside the portfolio, doesn't count."
+1. **Employment, not ownership.** XPanda Foam is the founder's employer
+   (salaried), not a business they own — no revenue, no company-asset
+   status, not part of the $5,000/mo target.
+2. **IP position, per the founder directly.** `xpanda-ops-platform` was
+   built voluntarily — the founder wasn't asked to build it. The founder's
+   own stated position: XPanda Foam would need to negotiate a license if
+   the founder left, implying the founder holds the IP, not the employer.
+   **Filed as the founder's understanding of the arrangement, a risk
+   statement rather than a verified legal conclusion** — employment
+   invention-assignment terms vary and this company can't verify the
+   actual contract — but a considered, plausible position, not a guess,
+   and not second-guessed further here.
 
-**What this does NOT change:** XPanda Foam's revenue/profitability is not
-stated and is not assumed here. It is not counted toward the $5,000/mo
-target unless the founder explicitly says to. See `founder-profile.md` for
-the full framing.
+**Net effect:** the technical entries in `engines.md`/`patterns.md`/
+`technical-assets.md` are reasonable to keep, framed as the founder's own
+accumulated engineering experience and knowledge — not as a company asset,
+and not without the light IP caveat above. `products.md`'s
+`xpanda-ops-platform` entry stays correctly excluded from the company's
+own product/asset base.
+
+**Worth keeping as a process lesson regardless of how the IP question
+resolves:** the ERP Firewall (Global Constitution Rule 6) was worked
+around with a logged, founder-authorized exception *before* either of
+these two facts was confirmed. The firewall's caution was well-founded,
+not overly conservative — future ERP-adjacent exceptions should establish
+ownership/IP status as part of the authorization conversation, not after
+findings are already filed.
 
 ## Standing priorities (from the Company Thesis)
 

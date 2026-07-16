@@ -5,6 +5,14 @@
 across projects — distinct from `success-history.md`/`failure-history.md`,
 which are process lessons.
 
+**Note on the `xpanda-ops-platform` entries below, resolved 2026-07-17:**
+XPanda Foam is the founder's employer, not an owned business. Per the
+founder directly, the platform was built voluntarily and the founder's own
+position is that they hold the IP — a stated understanding, not an
+independently verified legal conclusion (see `strategic-direction.md`'s
+Second Correction). Filed as the founder's own accumulated engineering
+knowledge with that light caveat, not as this company's own asset.
+
 ---
 
 ## Clerk + Supabase — the company's de facto default SaaS starter stack

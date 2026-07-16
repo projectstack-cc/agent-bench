@@ -42,19 +42,40 @@ compacted version lives once there's enough here to compact.
   `xpanda-ops-platform` Recon authorized by the founder as a follow-up,
   overriding the ERP Firewall for this read-only pass specifically — see
   `HQ/DECISIONS.md`.
-- **2026-07-17 — xpanda-ops-platform Recon + ownership resolved.** ERP
-  Firewall exception exercised (`HQ/DECISIONS.md`); verified independently
-  (mtime-checked) that nothing in that repo was modified and no
-  `CompanyIntelligence/` file was written by the pass itself, before
+- **2026-07-17 — xpanda-ops-platform Recon + ownership resolved (first
+  pass).** ERP Firewall exception exercised (`HQ/DECISIONS.md`); verified
+  independently (mtime-checked) that nothing in that repo was modified and
+  no `CompanyIntelligence/` file was written by the pass itself, before
   reporting findings. Confirmed a real, actively-developed production ERP
   — 581 commits, real production incidents fixed, the single most
   technically sophisticated reusable asset found across both Recon passes
   (a kerf-aware bin-packing engine). The report's one open question — is
   "Steve" (the system's named operational owner) the founder or a
   client/partner — was resolved directly by the founder: **"I am Steve."**
-  This is the founder's own business (XPanda Foam), not client work. Full
-  batch filed into `products.md`, `engines.md`, `patterns.md`,
-  `technical-assets.md`, `founder-profile.md`, `strategic-direction.md`.
+  Filed (incorrectly, see next entry) as the founder's own business.
+- **2026-07-17 — Ownership correction, same day.** The founder clarified
+  directly: XPanda Foam is the founder's *employer* (salaried role), not
+  an owned business — `xpanda-ops-platform` is work built as part of that
+  job. This is a materially different fact than what was filed hours
+  earlier, corrected in `founder-profile.md`, `strategic-direction.md`,
+  and `products.md` the same day. Raised a real IP/confidentiality
+  question about the already-filed technical detail
+  (`engines.md`/`patterns.md`/`technical-assets.md`).
+- **2026-07-17 — IP position clarified, same day.** The founder clarified
+  further: `xpanda-ops-platform` was built voluntarily, not at the
+  employer's direction, and the founder's own stated position is that they
+  hold the IP — XPanda Foam would need to negotiate a license if the
+  founder left. Filed as the founder's own understanding, not an
+  independently verified legal conclusion (`agent-security.md`'s standard
+  for legal risk statements applies directly here). Net effect: the
+  technical entries stay filed, framed as the founder's own accumulated
+  engineering knowledge with that light caveat, not as this company's
+  asset. Process lesson, independent of how the IP question resolves: the
+  ERP Firewall (Global Constitution Rule 6) was worked around with a
+  logged exception *before* either ownership fact was confirmed — its
+  caution was well-founded, not overly conservative. Future ERP-adjacent
+  exceptions should establish ownership/IP status as part of the
+  authorization conversation, not after findings are already filed.
 
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)

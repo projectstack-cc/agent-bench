@@ -45,10 +45,10 @@ a bug, flag it.
 
 | File | Contains | Confidence | Last compacted |
 |------|----------|------------|------------------|
-| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #3) |
-| `founder-profile.md` | Who the founder is (name: Steve/Stephen), strengths, constraints | High — directly stated by founder | 2026-07-17 (name logged, XPanda Foam context, stable/temporary split) |
+| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #5) |
+| `founder-profile.md` | Who the founder is (name: Steve/Stephen), strengths, constraints, employer | High — directly stated by founder | 2026-07-17 (name logged, XPanda Foam = employer not owned, IP position) |
 | `company-thesis.md` | Why this company exists, its operating principles | High — directly stated | 2026-07-16 |
-| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (two corrections: ProjectStack, XPanda Foam) |
+| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (ProjectStack + XPanda Foam corrections, IP position) |
 | `capabilities.md` | What the executive roster + founder stack can build | Medium, High on the new desktop-capability entry | 2026-07-17 |
 | `project-history.md` | Known missions and projects | Mixed — see per-entry confidence | 2026-07-17 |
 | `success-history.md` | What's worked, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
@@ -79,15 +79,20 @@ full detail.
 
 ## Recently changed
 
-- 2026-07-17 — **xpanda-ops-platform Recon + ownership resolved.** ERP
-  Firewall exception exercised and independently verified (no repo files
-  modified, no `CompanyIntelligence/` file written by the pass itself)
-  before reporting. Founder confirmed being "Steve" — `xpanda-ops-platform`
-  is the founder's own business (XPanda Foam), not client work. Founder's
-  full name (Steve/Stephen) logged in `founder-profile.md` to prevent
-  future confusion. `technical-assets.md` populated for the first time;
+- 2026-07-17 — **xpanda-ops-platform Recon, ownership resolved, then
+  corrected twice same day.** ERP Firewall exception exercised and
+  independently verified (no repo files modified, no
+  `CompanyIntelligence/` file written by the pass itself) before
+  reporting. Founder confirmed being "Steve." First filed (incorrectly)
+  as founder-owned; corrected to: XPanda Foam is the founder's *employer*
+  (salaried), not an owned business — not a company asset, not revenue.
+  Further clarified: the platform was built voluntarily, and the
+  founder's own stated IP position is that they hold it, not the employer
+  — filed as a risk statement, not verified legal fact. Founder's full
+  name (Steve/Stephen) logged in `founder-profile.md` to prevent future
+  confusion. `technical-assets.md` populated for the first time;
   `engines.md`/`patterns.md`/`products.md`/`strategic-direction.md`
-  extended; `briefing.md` recompacted (pass #3).
+  extended and corrected; `briefing.md` recompacted (passes #3-#5).
 - 2026-07-17 — First real Reconnaissance sweep (15 projects, `.dev` folder
   + GitHub). `products.md`, `engines.md`, `patterns.md` populated for the
   first time; `capabilities.md`, `founder-profile.md`,

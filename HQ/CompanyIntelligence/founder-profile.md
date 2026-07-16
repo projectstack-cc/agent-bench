@@ -31,9 +31,10 @@ React, TypeScript, Cloudflare, Node, database design, API design.
 
 ## Constraints — every recommendation from any executive must respect these
 
-- **Limited free time** — full-time employed elsewhere, **and** operates
-  XPanda Foam (see below) — this company is built in the margins of two
-  other real time commitments, not one, and not full-time hours.
+- **Limited free time** — full-time employed at XPanda Foam (salaried);
+  `xpanda-ops-platform` is work built as part of that job, not a separate
+  time commitment on top of it (corrected 2026-07-17 — see below). This
+  company is built in the margins of that job, not full-time hours.
 - **Limited advertising budget** — paid acquisition is not a default plan.
 - **Dislikes social media marketing and content marketing** — any
   recommendation requiring a content treadmill or audience-building is a
@@ -57,15 +58,9 @@ media/content marketing, wants independence over a single big bet, enjoys
 polishing products.
 
 **Likely temporary — re-check periodically, don't treat as permanent:**
-full-time employed elsewhere (the single biggest constraint on available
-hours; if this changes, most executive time-budgeting assumptions should
-be revisited, not silently carried forward).
-
-**Confirmed stable, ongoing (2026-07-17):** operates XPanda Foam, a real
-foam-manufacturing business, supported by a production ERP
-(`xpanda-ops-platform`) the founder built and actively maintains — see
-below. Unlike the "full-time employed elsewhere" line, nothing suggests
-this is temporary.
+full-time employed at XPanda Foam (the single biggest constraint on
+available hours; if this changes, most executive time-budgeting
+assumptions should be revisited, not silently carried forward).
 
 **Not yet captured, and correctly left unfilled rather than guessed at:**
 decision biases, learning style, known weaknesses. No evidence exists for
@@ -88,23 +83,35 @@ history" framing, and `products.md` for the full entry.
 
 ---
 
-## XPanda Foam — resolved 2026-07-17
+## XPanda Foam — resolved 2026-07-17, corrected same day
 
 `xpanda-ops-platform`'s `AGENTS.md` refers throughout to "Steve" as the
-operational owner with database console access. **The founder confirmed
-directly: "I am Steve."** This resolves the open ownership question the
-Recon pass raised (own business vs. client/service work): it's the
-founder's own system, supporting XPanda Foam, a real, actively-operated
-foam-manufacturing business — daily use, 581 commit-log entries, real
-production incidents fixed as recently as the day before this Recon ran.
+operational owner with database console access. The founder confirmed
+directly: "I am Steve." **XPanda Foam is the company the founder is
+employed by (a salaried role) — not a business the founder owns.** It does
+not generate income for the founder beyond salary; no revenue, no
+ownership stake in the *company* stated or assumed.
 
-**What this does and doesn't establish:** this confirms XPanda Foam is a
-real, ongoing operational commitment with working production software —
-materially different from a side project. It does **not** confirm XPanda
-Foam's revenue or profitability; that hasn't been stated and isn't assumed
-here. See `strategic-direction.md` for how this affects the "zero
-operational history" framing, and `products.md`/`engines.md` for the
-technical findings.
+**On the platform's IP, per the founder directly:** `xpanda-ops-platform`
+was built voluntarily — the founder wasn't asked to build it — not as a
+directed part of the job. The founder's own position: if they left XPanda
+Foam, the company would need to negotiate a license, implying the founder,
+not the employer, holds the IP. **Filed as the founder's stated
+understanding of the arrangement, not an independently verified legal
+conclusion** — employment-agreement IP/invention-assignment terms vary
+significantly and can contradict an employee's own good-faith
+understanding even when the work was genuinely unprompted; this company
+has no visibility into the actual contract terms. This is a risk
+statement, not legal advice, per the standard `agent-security.md` already
+applies to exactly this kind of claim.
+
+**What this establishes:** real, hands-on production-engineering
+experience — building and maintaining a live ERP with genuine technical
+depth — plus, per the founder's own stated position, personal ownership of
+what was built. Not a company asset (XPanda Foam isn't part of this
+company's portfolio), but the technical patterns from it are reasonable to
+treat as the founder's own accumulated knowledge, with the light caveat
+above carried forward rather than dropped.
 
 ## Known projects (verified via Reconnaissance, 2026-07-17 — supersedes the
 prior 14-day-old, unverified memory record below)
@@ -112,8 +119,10 @@ prior 14-day-old, unverified memory record below)
 Confirmed present and real: Tiny World, this Headquarters system itself,
 TapIn, step3-ai, subscription-worker, RadialNest, precision-maintenance,
 packslip-pro, ProjectStack Web Solutions, lights-out, and
-`xpanda-ops-platform` (XPanda Foam's production ERP, founder-operated —
-see above). Confirmed via GitHub only (removed locally for disk space):
+`xpanda-ops-platform` (built by the founder while employed at XPanda Foam
+— see above; **not this company's asset or product**, though per the
+founder's own stated IP position, personally theirs).
+Confirmed via GitHub only (removed locally for disk space):
 cinevault, pdf-tools, formflow. Confirmed archived/deprioritized by the
 founder: erp-lite (an earlier prototype, superseded by
 `xpanda-ops-platform`). Full detail per project: `Recon/*-2026-07-17.md`.
