@@ -97,6 +97,17 @@ are already filed.
   (real IP, real market, no confirmed wedge) was sequenced second, not
   rejected. Full transcript published as an artifact; underlying research
   is the reusable output if either candidate becomes a real mission.
+- **2026-07-17 — step3-ai's real stall reason confirmed, correcting
+  Opportunity Court II.** The founder clarified directly: it was archived
+  over AI-API-cost unit economics (cost per conversion, no revenue yet to
+  cover it), not an unverified technical blocker — the board's central
+  open question was answered, and it wasn't the question the board
+  expected. The founder also explained rejecting a Bring-Your-Own-API-Key
+  mitigation: a customer with their own key could likely replicate the
+  workflow without the product. Both filed as reusable patterns
+  (`patterns.md`) for any future AI-powered opportunity — a named risk
+  category (AI-API cold start) and a real moat test (does BYOK make the
+  product pointless). `products.md`'s step3-ai entry corrected accordingly.
 
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)

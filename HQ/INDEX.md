@@ -45,20 +45,20 @@ a bug, flag it.
 
 | File | Contains | Confidence | Last compacted |
 |------|----------|------------|------------------|
-| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #6) |
-| `founder-profile.md` | Who the founder is (name: Steve/Stephen), strengths, constraints, employer | High — directly stated by founder | 2026-07-17 (XPanda Foam = employer, founder owns platform IP, de-brand plan) |
+| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #7) |
+| `founder-profile.md` | Who the founder is (name: Steve/Stephen), strengths, constraints, employer | High — directly stated by founder | 2026-07-17 |
 | `company-thesis.md` | Why this company exists, its operating principles | High — directly stated | 2026-07-16 |
-| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (XPanda Foam resolved: real future product candidate) |
+| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 |
 | `capabilities.md` | What the executive roster + founder stack can build | Medium, High on the new desktop-capability entry | 2026-07-17 |
 | `project-history.md` | Known missions and projects | Mixed — see per-entry confidence | 2026-07-17 |
 | `success-history.md` | What's worked, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
 | `failure-history.md` | What's broken, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
-| `products.md` | Existing + future-candidate products | Mixed, High to Low-Medium per entry | 2026-07-17 |
+| `products.md` | Existing + future-candidate products | Mixed, High to Low-Medium per entry | 2026-07-17 (step3-ai stall reason corrected) |
 | `engines.md` | Reusable technical engines identified | High | 2026-07-17 |
 | `components.md` | Reusable components identified | Empty — pending a deeper per-project read | — |
 | `technical-assets.md` | Technical assets inventory (D1 limits, R2 pattern) | High | 2026-07-17 |
 | `knowledge-domains.md` | Domains the company has real expertise in | Empty — pending a deeper per-project read | — |
-| `patterns.md` | Repeated architectural patterns across projects | High | 2026-07-17 |
+| `patterns.md` | Repeated architectural patterns across projects | High | 2026-07-17 (AI-API cold start + BYOK-moat lessons added) |
 | `lessons/` | Curated lessons, organized by domain | Empty — pending first Debrief | — |
 
 ## Skills (`HQ/Skills/`)
@@ -79,6 +79,15 @@ full detail.
 
 ## Recently changed
 
+- 2026-07-17 — **Opportunity Court II ran, then its central open question
+  got answered and corrected.** Second board session (weighing existing
+  assets against fresh research, `Recon/2026-07-17-INDEX.md`-informed)
+  verdict: verify `step3-ai`'s pipeline. Founder then clarified the real
+  reason it stalled was AI-API-cost unit economics, not an unverified
+  technical blocker — `products.md` corrected, two new reusable patterns
+  filed (`patterns.md`: AI-API cold start as a named risk category; BYOK
+  as a moat-destroying risk for thin AI-wrapper products). `briefing.md`
+  recompacted (pass #7).
 - 2026-07-17 — **xpanda-ops-platform Recon, ownership resolved through
   three corrections same day — settled as a real future product
   candidate.** ERP Firewall exception exercised and independently verified

@@ -12,6 +12,35 @@ real plan to de-brand and bring it to market — see `products.md`.
 
 ---
 
+## BYOK undermines the moat for thin AI-wrapper products
+
+**Confidence: High** — the founder's own reasoning, from a real decision
+(archiving `step3-ai`, see `products.md`), not a hypothetical. Bring-Your-
+Own-API-Key looks like a natural fix for AI-API cost risk (shift the
+marginal cost to the customer), but for a product whose value-add over the
+underlying AI model is thin, BYOK can hand the customer everything they'd
+need to replicate the workflow themselves — the product stops being worth
+paying for the moment the customer has their own key. **Any future
+AI-powered opportunity `coo`/`cto`/`cfo` evaluate should explicitly assess
+how much value-add exists *beyond* the raw API call** (proprietary data,
+a genuinely hard non-AI pipeline step, workflow/integration lock-in,
+UX the customer wouldn't bother building themselves) before treating BYOK
+as a viable cost-mitigation — it's a red flag for weak differentiation as
+much as it's a pricing lever.
+
+## AI-API-cost cold start — a real, named risk category
+
+**Confidence: High** — the actual, confirmed reason `step3-ai` was
+archived (`products.md`), not the unverified "unclear why it stalled"
+guess Opportunity Court II worked with. A product with real per-use AI API
+cost and no existing revenue faces a cash-flow gap: cost is incurred
+before there's income to cover it, and no subscriber base yet to spread it
+across. **`cfo` should treat this as a named, checkable risk for any
+future AI-powered opportunity**, not just discover it after building —
+usage-based/pay-per-use pricing, a hard free-tier cap, or a pre-sale/
+waitlist model (revenue before or alongside spend) are the standard
+mitigations worth evaluating up front, not after the product stalls.
+
 ## Clerk + Supabase — the company's de facto default SaaS starter stack
 
 **Confidence: High** — 4 independent citations: `tapin`, `cinevault`,

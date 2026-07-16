@@ -71,13 +71,33 @@ direct status check before assuming where it actually stands.
 
 ## step3-ai ("video-to-manual")
 
-**Confidence: High on stack completeness, Low on why it's stalled** (not
-investigated). **The most complete, closest-to-shippable product found in
-this entire Recon pass** — full Stripe payments, Clerk auth, Supabase, a
-defined video-to-PDF-manual conversion pipeline (`/convert`, `/dashboard`,
-`/jobs` routes). Flagged as the highest-priority item for a direct founder
-decision (finish it vs. formally park it) before spending more Opportunity
-Court cycles on brand-new ideas.
+**Confidence: High** — reason for stalling confirmed directly by the
+founder (2026-07-17), correcting Opportunity Court II's "unverified, low
+confidence" framing. **The most complete, closest-to-shippable product
+found in this entire Recon pass** — full Stripe payments, Clerk auth,
+Supabase, a defined video-to-PDF-manual conversion pipeline (`/convert`,
+`/dashboard`, `/jobs` routes).
+
+**Why it actually stalled: unit economics, not a technical blocker.** The
+conversion pipeline depends on AI API calls with real per-conversion cost.
+The founder archived it deliberately — a cold-start cash-flow problem:
+running it at scale before there's paying revenue means absorbing API cost
+with no income to cover it, and there's no subscriber base yet to spread
+that cost across. **This is a different, and cheaper, question to resolve
+than Opportunity Court II assumed.** The board's "verify the pipeline
+works" test is still worth doing, but it was never the actual blocker —
+the real open question is a pricing/unit-economics model that covers
+per-conversion API cost from the first paying customer, not "does the code
+run."
+
+**A real, reusable lesson from evaluating and rejecting Bring-Your-Own-API-
+Key:** the founder considered BYOK to shift API cost onto the customer,
+and rejected it with a sharp insight — anyone with their own AI API key
+could likely replicate this workflow themselves without needing the
+product at all. **This is a genuine competitive-moat risk specific to thin
+AI-wrapper products**, not just a step3-ai detail — filed as a pattern in
+`patterns.md` for any future AI-powered opportunity this company
+evaluates.
 
 ## Tiny World
 

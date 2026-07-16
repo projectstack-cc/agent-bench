@@ -1,9 +1,7 @@
 # Company Briefing
 
-*Compaction pass #6 — 2026-07-17. Regenerated from Tier 1 state, not
-appended to. Genuinely re-compacted this pass (not just extended) — the
-XPanda Foam correction history is settled now; the full blow-by-blow lives
-in `project-history.md`, this file just states where things landed.*
+*Compaction pass #7 — 2026-07-17. Regenerated from Tier 1 state, not
+appended to.*
 
 ---
 
@@ -26,37 +24,48 @@ detail: `company-thesis.md`.
 
 ## Where the company actually is (High confidence)
 
-The 2026-07-16 audit's "zero operational history" finding needed
-correction: **ProjectStack Web Solutions** is a real, live landing page
-already tried (zero revenue/clients to date) — a genuine go-to-market data
-point for future services opportunities. No real Deployment or Debrief has
-run through HQ's own formal process yet.
+**ProjectStack Web Solutions** is a real, live landing page already tried
+(zero revenue/clients to date) — a genuine go-to-market data point for
+future services opportunities. No real Deployment or Debrief has run
+through HQ's own formal process yet.
 
-**The most significant finding overall: `xpanda-ops-platform`.** Built by
-the founder at XPanda Foam (employer, salaried role — not a company asset,
-no current revenue), but **the founder owns the platform's IP and plans to
-de-brand it for market once complete.** This is a real future product
-candidate, arguably the strongest in the company's history — a production-
-proven ERP (581 commits, real incidents fixed) built around a genuinely
-hard, generalizable core (a kerf-aware bin-packing engine). Not yet a
-scoped mission — "complete" isn't defined, no Opportunity Court pass has
-evaluated it. Full detail: `products.md`, `strategic-direction.md`.
+**`xpanda-ops-platform`** — built by the founder at XPanda Foam (employer,
+salaried role — not a company asset, no current revenue), but the founder
+owns the platform's IP and plans to de-brand it for market. A production-
+proven ERP (581 commits) built around a genuinely hard, generalizable core
+(a kerf-aware bin-packing engine). Access is permanently read-only-Recon
+until whatever's extracted is separated from the live system
+(`HQ/DECISIONS.md`). Not yet a scoped mission.
+
+**Two Opportunity Court sessions have run.** The first (2026-07-15,
+external research only) verdict: build "Actions Ledger" — not yet started.
+The second (2026-07-17, weighing existing assets against fresh research)
+verdict: **verify `step3-ai`'s video-conversion pipeline** — since
+corrected: `step3-ai` was archived over AI-API-cost unit economics (no
+revenue yet to cover per-conversion API cost), not an unverified technical
+blocker as the board assumed. The real next question is a pricing model
+that covers API cost from the first paying customer, not "does the code
+run." Full detail: `products.md`, `strategic-direction.md`,
+`project-history.md`.
 
 ## What Reconnaissance found (High confidence, 16 projects)
 
 - **`xpanda-ops-platform`'s bin-packing engine** — the single most
   valuable, generalizable technical asset found (`engines.md`).
-- **A proven, in-production Stripe billing engine** (`subscription-worker`,
-  serving `projectstack.cc`) — already this company's own reusable asset.
+- **A proven, in-production Stripe billing engine** (`subscription-worker`)
+  — already this company's own reusable asset.
 - **Clerk + Supabase is the validated default SaaS stack** (4+ citations).
   **One-time purchase beats subscription for consumer apps** (2 citations).
-- `step3-ai` ("video-to-manual") is the most complete, closest-to-
-  shippable *new* product in the portfolio, stalled for unknown reasons.
-- `pdf-tools`/`packslip-pro` are two working (partial) examples of the
-  document-automation category the founder keeps circling.
+- **Two new lessons for any future AI-powered opportunity** (`patterns.md`):
+  AI-API-cost cold start is a named, checkable risk (build the pricing
+  model before the product stalls, not after); Bring-Your-Own-API-Key can
+  destroy a thin AI-wrapper's moat — a customer with their own key may not
+  need the product at all.
+- `pdf-tools`/`packslip-pro` — two working (partial) examples of a
+  document-automation category that's actually crowded with funded
+  competitors (confirmed via real research in Opportunity Court II).
 
-Full detail: `products.md`, `engines.md`, `patterns.md`,
-`Recon/2026-07-17-INDEX.md`.
+Full detail: `products.md`, `engines.md`, `patterns.md`.
 
 ## Standing lessons (High confidence, binding on the relevant Executives)
 
@@ -79,5 +88,7 @@ Written directly into `agent-ceo.md`/`agent-qa-critic.md`. Full incidents:
 `components.md`, `knowledge-domains.md` remain empty. Whether
 `precision-maintenance`/`tapin` represent paying client revenue is
 unconfirmed. `xpanda-ops-platform`'s de-branding scope and timeline aren't
-defined. The Obsidian vault (13 projects, 17 skills) still hasn't been
-extracted before its retirement.
+defined. `step3-ai`'s actual per-conversion API cost and a viable covering
+price point haven't been modeled yet — the real next step, per the
+correction above. The Obsidian vault (13 projects, 17 skills) still hasn't
+been extracted before its retirement.
