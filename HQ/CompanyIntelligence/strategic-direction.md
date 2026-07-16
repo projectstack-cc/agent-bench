@@ -10,14 +10,23 @@ forecast.
 
 `step3-ai` — Opportunity Court II's top-ranked candidate — is **iceboxed**,
 explicitly, until supporting revenue exists elsewhere to fund its AI-API
-cold-start cost (see `products.md`). That leaves no active candidate
-actually being pursued right now. The board's second-ranked candidate
-(the kerf-aware nesting engine extraction) has its own unresolved blocker
-— a market-wedge research spike that hasn't run yet, not a green light by
-default just because step3-ai stepped back. **This is the real open
-question for the next Opportunity Court or `coo`/`cfo` pass**: run the
-nesting engine's wedge spike, search for a genuinely new Category A
-candidate with real evidence, or something else — not yet decided.
+cold-start cost (see `products.md`). A follow-up research pass (per the
+founder's direction: search from lived operational experience, not just
+"clone the one algorithm," since a from-scratch rebuild is required either
+way — no build-time advantage to "already exists") generated four real
+hypotheses from `xpanda-ops-platform`'s own documented pain points
+(yield/scrap tracking, QC checklists, job-shop tracking, OSHA compliance).
+**All four are real pains; all four are already served by funded
+competitors; none cleared the evidence bar.** Filed as researched-and-
+rejected in `products.md`.
+
+**Narrowed, not open-ended:** the nesting engine's 1-week market-wedge
+research spike is now the most credible next step of everything evaluated
+across two Opportunity Court sessions and this research pass — not by
+default, but because nothing else beat it. One new, concrete input for
+that spike: Fulcrum (a funded job-shop competitor) already bundles
+nesting — a specific competitor to check directly, not just the standalone
+nesting vendors already known. Not yet run.
 
 ## Current initiative: Headquarters (V2 architecture)
 

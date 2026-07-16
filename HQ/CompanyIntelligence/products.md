@@ -148,3 +148,39 @@ tracker, React/Supabase/Clerk/TMDB, PWA, CI/CD via GitHub Actions.
 incomplete. 4 commits — likely early-stage or abandoned. Recommend a
 direct, authenticated check if this project's status ever matters to a
 real decision.
+
+---
+
+## Researched and rejected — domain-experience-driven search (2026-07-17)
+
+Per the founder's direction to search from lived operational experience
+running `xpanda-ops-platform`, not just the one extractable algorithm —
+four hypotheses generated directly from that platform's own modules and
+documented pain points, each given real market research at the same
+evidence bar as both Opportunity Court sessions. **All four are real,
+correctly-identified pains. All four are already served by funded
+competitors, with no confirmed wedge for any.** Recorded so they aren't
+re-researched later without new information:
+
+- **First-Pass-Yield/scrap tracking** — from the platform's own deferred
+  scrap-DB blocker. Real pain; already served (Fabrico, Guidewheel,
+  GlobalReader, isoTracker) as the "modern alternative to $500K+ legacy
+  MES."
+- **QC/inspection checklists** — the most saturated of the four.
+  SafetyCulture dominates this exact low-end segment already.
+- **Job-shop/custom-fabrication tracking & costing** — real, funded,
+  vertical-specific competitors (Fulcrum, Paperless Parts, MIE Trak Pro).
+  **Notable finding for the nesting engine specifically: Fulcrum already
+  bundles nesting integrations** — a real competitor to check directly
+  during that candidate's own wedge research, not just the standalone
+  nesting vendors already known.
+- **OSHA/safety compliance** — saturated; SafetyCulture again (the only
+  vendor competing across two of these four categories).
+
+**Build-time finding, worth keeping:** every one of these four is
+technically *easier* to build than the nesting engine — and none of that
+mattered, because competitive crowding, not build time, was the actual
+constraint in all five candidates evaluated (these four plus the nesting
+engine). Domain fluency reliably generates real hypotheses; it doesn't by
+itself find an uncontested market. Full research and sources:
+`Recon/domain-experience-research-2026-07-17.md`.

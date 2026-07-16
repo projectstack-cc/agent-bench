@@ -1,6 +1,6 @@
 # Company Briefing
 
-*Compaction pass #8 — 2026-07-17. Regenerated from Tier 1 state, not
+*Compaction pass #9 — 2026-07-17. Regenerated from Tier 1 state, not
 appended to.*
 
 ---
@@ -44,10 +44,19 @@ candidate was **explicitly iceboxed by the founder** — archived over
 AI-API-cost cold-start economics (per-conversion cost with no revenue to
 cover it, and premium-only pricing rejected as a real conversion/refund/
 review risk). Revisit condition is specific: supporting revenue from
-elsewhere, not a fixed date. **No candidate is currently being actively
-pursued** — the board's second-ranked candidate (the nesting engine) still
-needs its own market-wedge research spike. Full detail: `products.md`,
-`strategic-direction.md`'s open question, `project-history.md`.
+elsewhere, not a fixed date.
+
+**A follow-up domain-experience research pass then narrowed the question.**
+Four hypotheses generated from `xpanda-ops-platform`'s own documented pain
+points (yield tracking, QC checklists, job-shop tracking, OSHA compliance)
+were all real pains, all already served by funded competitors, none with
+a confirmed wedge — filed as researched-and-rejected in `products.md`.
+**Net effect: the nesting engine's 1-week wedge-research spike is now the
+clear next step** — not the default, but the only candidate across two
+Opportunity Court sessions and this pass that nothing has beaten. One
+concrete new input for that spike: Fulcrum (a funded job-shop competitor)
+already bundles nesting — check it directly. Not yet run. Full detail:
+`products.md`, `strategic-direction.md`'s open question, `project-history.md`.
 
 ## What Reconnaissance found (High confidence, 16 projects)
 
@@ -88,8 +97,7 @@ Written directly into `agent-ceo.md`/`agent-qa-critic.md`. Full incidents:
 
 `components.md`, `knowledge-domains.md` remain empty. Whether
 `precision-maintenance`/`tapin` represent paying client revenue is
-unconfirmed. `xpanda-ops-platform`'s de-branding scope and timeline aren't
-defined. What the company actually pursues next for supporting revenue is
-undecided — see `strategic-direction.md`'s open question. The Obsidian
-vault (13 projects, 17 skills) still hasn't been extracted before its
-retirement.
+unconfirmed. `xpanda-ops-platform`'s de-branding scope and timeline aren't defined. The
+nesting engine's actual wedge (material niche, API-first angle, or
+neither) is unresearched — the spike hasn't run yet. The Obsidian vault
+(13 projects, 17 skills) still hasn't been extracted before its retirement.

@@ -12,10 +12,12 @@ compacted version lives once there's enough here to compact.
   executive board process against real market research. Verdict: build
   "Actions Ledger" (GitHub Actions cost monitoring). Not yet built — this
   was opportunity vetting, not a shipped product. Full transcript was
-  published as an artifact; the underlying research (6 evidence-backed
-  candidates, 3 researched-and-rejected) is the actual reusable output —
-  worth pulling into `products.md`/`engines.md` reasoning if this
-  opportunity is ever picked up as a real mission.
+  published as an artifact; full source now durable at
+  `Recon/opportunity-court-1-report-2026-07-15.md` (was scratchpad-only
+  until 2026-07-17). Underlying research (6 evidence-backed candidates, 3
+  researched-and-rejected) is the actual reusable output — worth pulling
+  into `products.md`/`engines.md` reasoning if this opportunity is ever
+  picked up as a real mission.
 - **2026-07-16 — V1 Tauri Harness archived.** Phases 0-8 (CLI executor,
   workspace/Open Folder, Task Board, SQLite backbone, memory promotion
   pipeline, unverified Hire Agent workflow) committed as a restore point,
@@ -95,8 +97,8 @@ are already filed.
   build.** No new external candidate cleared this board's evidence bar
   this session, reported honestly rather than padded. The nesting engine
   (real IP, real market, no confirmed wedge) was sequenced second, not
-  rejected. Full transcript published as an artifact; underlying research
-  is the reusable output if either candidate becomes a real mission.
+  rejected. Full transcript published as an artifact; full source now
+  durable at `Recon/opportunity-court-2-report-2026-07-17.md`.
 - **2026-07-17 — step3-ai's real stall reason confirmed, correcting
   Opportunity Court II.** The founder clarified directly: it was archived
   over AI-API-cost unit economics (cost per conversion, no revenue yet to
@@ -121,6 +123,24 @@ are already filed.
   company actually pursues next for supporting revenue — Opportunity Court
   II's second-ranked candidate (the nesting engine) has its own unresolved
   blocker (a market-wedge research spike, not yet run).
+- **2026-07-17 — Domain-experience research: 4 hypotheses, 0 cleared the
+  bar.** Per the founder's direction — search from lived operational
+  experience running `xpanda-ops-platform`, not just the one extractable
+  algorithm, since a from-scratch rebuild is required either way (no
+  build-time advantage to "already exists"). Generated 4 real hypotheses
+  directly from the platform's own modules and documented pain points
+  (yield/scrap tracking, QC checklists, job-shop tracking, OSHA
+  compliance). All four are real, correctly-identified pains; all four are
+  already served by funded competitors (SafetyCulture notably dominates
+  two of the four categories; Fulcrum already bundles nesting — a new,
+  useful data point for the nesting engine's own wedge research). Zero
+  cleared the evidence bar. Filed as researched-and-rejected in
+  `products.md` so they aren't re-researched later without new
+  information. **Net effect: the nesting engine's 1-week wedge-research
+  spike remains the most credible next step of everything evaluated
+  across both Opportunity Court sessions and this pass** — not because
+  this pass favored it, but because nothing beat it. Full source:
+  `Recon/domain-experience-research-2026-07-17.md`.
 
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)
