@@ -26,6 +26,22 @@ compacted version lives once there's enough here to compact.
   each conformed to the existing agent-definition standard after review.
 - **2026-07-16 — HQ v2 migration (in progress).** This file's own creation
   is part of it — see `strategic-direction.md` for what's done vs. pending.
+- **2026-07-16 — Executive Company Audit.** Full 15-area governance/
+  architecture review (`project_files/hq-executive-audit-2026-07-16.md`).
+  Headline finding: zero operational history behind every claim in Company
+  Intelligence at that point. Reconnaissance named as the one framework
+  worth building in full immediately, everything else tagged NOW (cheap,
+  fix now) or DEFER (needs real mission data first).
+- **2026-07-17 — First real Reconnaissance sweep.** 15 projects surveyed
+  across `C:\Users\scook\.dev` and GitHub (`Recon/2026-07-17-INDEX.md`).
+  Directly falsified part of the audit's headline finding: a real,
+  already-tried go-to-market attempt (ProjectStack Web Solutions) exists,
+  though it has produced zero revenue to date — see
+  `strategic-direction.md`'s correction. Populated `products.md`,
+  `engines.md`, `patterns.md`, and `capabilities.md` for the first time.
+  `xpanda-ops-platform` Recon authorized by the founder as a follow-up,
+  overriding the ERP Firewall for this read-only pass specifically — see
+  `HQ/DECISIONS.md`.
 
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)

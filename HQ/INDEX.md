@@ -12,6 +12,12 @@ a bug, flag it.
 
 ---
 
+## Root files
+
+| File | Contains |
+|------|----------|
+| `DECISIONS.md` | Dated log of structural/governance decisions — ADR-style, short |
+
 ## Executives (`HQ/Executives/`)
 
 | File | Role | Version | Updated |
@@ -33,35 +39,49 @@ a bug, flag it.
 | `agent-ue-dev.md` | Unreal Engine 5 Developer & Game Systems Architect | v1 | 2026-07-16 |
 | `agent-zernio-mcp.md` | Social media publishing bridge via Zernio MCP | v1 | 2026-07-16 |
 | `agent-research.md` | Market researcher, trend analyst & opportunity scout | v1 | 2026-07-16 |
-| `agent-librarian.md` | HQ filing system owner, Debrief/Folder Dive gatekeeper | v1 | 2026-07-16 |
+| `agent-librarian.md` | HQ filing system owner, Debrief/Recon gatekeeper | v1 | 2026-07-16 |
 
 ## Company Intelligence (`HQ/CompanyIntelligence/`)
 
 | File | Contains | Confidence | Last compacted |
 |------|----------|------------|------------------|
-| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-16 (first generation) |
-| `founder-profile.md` | Who the founder is, strengths, constraints | High — directly stated by founder | 2026-07-16 |
+| `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #2) |
+| `founder-profile.md` | Who the founder is, strengths, constraints | High — directly stated by founder | 2026-07-17 (added stable/temporary split, ProjectStack context) |
 | `company-thesis.md` | Why this company exists, its operating principles | High — directly stated | 2026-07-16 |
-| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-16 |
-| `capabilities.md` | What the executive roster + founder stack can build | Medium — reasoned from roster, not yet Folder-Dive-verified | 2026-07-16 |
-| `project-history.md` | Known missions and projects | Mixed — some verified this session, some from unverified memory | 2026-07-16 |
+| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (corrected "zero operational history" framing) |
+| `capabilities.md` | What the executive roster + founder stack can build | Medium, High on the new desktop-capability entry | 2026-07-17 |
+| `project-history.md` | Known missions and projects | Mixed — see per-entry confidence | 2026-07-17 |
 | `success-history.md` | What's worked, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
 | `failure-history.md` | What's broken, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
-| `products.md` | Existing shipped products | Empty — pending first Folder Dive | — |
-| `engines.md` | Reusable technical engines identified | Empty — pending first Folder Dive | — |
-| `components.md` | Reusable components identified | Empty — pending first Folder Dive | — |
-| `technical-assets.md` | Technical assets inventory | Empty — pending first Folder Dive | — |
-| `knowledge-domains.md` | Domains the company has real expertise in | Empty — pending first Folder Dive | — |
-| `patterns.md` | Repeated architectural patterns across projects | Empty — pending first Folder Dive | — |
+| `products.md` | Existing shipped products | Mixed, High to Low-Medium per entry — populated 2026-07-17 via Recon | 2026-07-17 |
+| `engines.md` | Reusable technical engines identified | High — populated 2026-07-17 via Recon | 2026-07-17 |
+| `components.md` | Reusable components identified | Empty — pending a deeper per-project read | — |
+| `technical-assets.md` | Technical assets inventory | Empty — pending a deeper per-project read | — |
+| `knowledge-domains.md` | Domains the company has real expertise in | Empty — pending a deeper per-project read | — |
+| `patterns.md` | Repeated architectural patterns across projects | High — populated 2026-07-17 via Recon | 2026-07-17 |
 | `lessons/` | Curated lessons, organized by domain | Empty — pending first Debrief | — |
 
 ## Skills (`HQ/Skills/`)
 
-Empty — pending a Folder Dive-style extraction pass against the retired
+Empty — pending a Reconnaissance-style extraction pass against the retired
 Obsidian vault's 17 skills before that vault stops being readable. See
-`project_files/hq-v2-architecture.md` §11.
+`project_files/hq-v2-architecture.md` §11. Not part of the 2026-07-17
+`.dev`-folder Recon sweep — that covered code projects, not the Obsidian
+vault itself.
+
+## Recon (`Recon/`)
+
+15 project reports + `2026-07-17-INDEX.md`, first real Reconnaissance
+sweep. See `HQ/CompanyIntelligence/project-history.md` for the summary
+entry and `Recon/2026-07-17-INDEX.md` for full detail.
 
 ## Recently changed
 
+- 2026-07-17 — First real Reconnaissance sweep (15 projects). `products.md`,
+  `engines.md`, `patterns.md` populated for the first time; `capabilities.md`,
+  `founder-profile.md`, `strategic-direction.md`, `project-history.md`
+  updated with real findings. `HQ/DECISIONS.md` created (first entry: ERP
+  Firewall exception for Recon on `xpanda-ops-platform`). `FolderDives/`
+  renamed to `Recon/`.
 - 2026-07-16 — HQ structure created (migration from `Agents/`), this INDEX
   generated for the first time, Company Intelligence skeleton seeded.

@@ -12,6 +12,12 @@ it can do" — `success-history.md` and `products.md` are where proof lives.
 React, TypeScript, Cloudflare (Workers/Pages/D1), Node, API design,
 database design.
 
+**Confirmed via Reconnaissance (2026-07-17, High confidence):** native
+Windows desktop (WPF/.NET, via `RadialNest`) — a real, demonstrated
+capability beyond the web/Cloudflare stack, the only native-desktop asset
+found in the portfolio. Worth knowing about for any future opportunity
+that's a poor fit for a web app specifically.
+
 ## Domain coverage (by Executive)
 
 | Domain | Owner | Notes |
@@ -38,6 +44,7 @@ database design.
 - `agent-zernio-mcp.md`'s actual publish action needs the Zernio MCP
   server's own tools, not yet wired to any dispatch mechanism — documented
   in that file, not fixed here.
-- No verified inventory of reusable engines/components exists yet
-  (`engines.md`, `components.md` are empty pending Folder Dive) — don't
-  assume something is buildable from scratch-free reuse until that's run.
+- `engines.md` has its first two real entries as of 2026-07-17 (a proven
+  in-production Stripe billing engine, a game-engine capability-flag
+  pattern) — `components.md` and `technical-assets.md` are still empty,
+  pending a deeper per-project read than this first Recon pass did.
