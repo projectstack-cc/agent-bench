@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-02T12:50:46.406Z",
+  "agent": "ceo",
+  "project": "general",
+  "task": "Based on this research into existing patterns:\n\n\n\nDraft a new agent definition for the harness team addressing this capability gap: \"We need to hire an agent that specializes in security. Currently we have no agent that will verify everything that we build is properly secured and locked down. \". Adapt the best-fit candidate above rather than writing from scratch. Match the existing agent definition format used in this harness: a \"# Agent: {name}\" header, \"## Identity\" section, \"## Core Responsibilities\" table, \"## Deliverables Format\" section, and \"## Challenge Protocol\" section. Output ONLY the markdown file content for Agents/agent-{name}.md, no preamble or commentary.",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 679,
+  "responseLengthChars": 0,
+  "memoriesInjected": 0,
+  "challenges": [],
+  "durationMs": 0
+}

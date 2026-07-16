@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-02T12:50:52.072Z",
+  "agent": "qa-critic",
+  "project": "general",
+  "task": "Review this draft agent definition against the librarian's Agent Definition Health checklist: has \"# Agent: {name}\" header, has \"## Identity\", has \"## Core Responsibilities\" or equivalent, has \"## Deliverables Format\", has \"## Challenge Protocol\", references a real/correct project stack (not generic filler), no broken internal links, file size reasonable (<20KB). Flag any issues found — don't rewrite it yourself, just review:\n\n",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 431,
+  "responseLengthChars": 0,
+  "memoriesInjected": 0,
+  "challenges": [],
+  "durationMs": 0
+}

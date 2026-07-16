@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-02T12:50:39.712Z",
+  "agent": "research",
+  "project": "general",
+  "task": "Search for existing AI agent definitions, prompts, or skill patterns (e.g. on GitHub, in public agent frameworks) that address this capability gap: \"We need to hire an agent that specializes in security. Currently we have no agent that will verify everything that we build is properly secured and locked down. \". Return 2-3 concrete candidates with source names/links and a brief fit assessment for each — which one best matches this need and why.",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 447,
+  "responseLengthChars": 0,
+  "memoriesInjected": 0,
+  "challenges": [],
+  "durationMs": 0
+}

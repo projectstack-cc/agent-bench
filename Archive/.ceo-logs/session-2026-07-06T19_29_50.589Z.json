@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-06T19:29:50.589Z",
+  "agent": "research",
+  "project": "general",
+  "task": "Search for existing AI agent definitions, prompts, or skill patterns (e.g. on GitHub, in public agent frameworks) that address this capability gap: \"We need to hire an agent based on this blurb Investment Committee.\n\nImagine every idea has to survive this panel.\n\nQuestions like:\n\nCan Steve build this in 30 days?\nCan one customer be acquired without paid ads?\nCan revenue appear before feature #10?\nIs this replacing an ecosystem or fixing a workflow?\nDoes this create leverage?\n\nThen it votes.\n\nGO\n\nNO GO\n\nRESEARCH MORE\n\nPIVOT\n\nThat would prevent months of work on ideas that look exciting but don't fit your constraints.\". Return 2-3 concrete candidates with source names/links and a brief fit assessment for each — which one best matches this need and why.",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 760,
+  "responseLengthChars": 1642,
+  "memoriesInjected": 0,
+  "challenges": [],
+  "durationMs": 25661
+}
