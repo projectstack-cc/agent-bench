@@ -142,6 +142,182 @@ are already filed.
   this pass favored it, but because nothing beat it. Full source:
   `Recon/domain-experience-research-2026-07-17.md`.
 
+- **2026-07-20 — PC gaming market scan, researched-and-rejected, both
+  passes.** First of a planned series of cross-market opportunity scans
+  (see `strategic-direction.md`), run independent of `xpanda-ops-
+  platform`'s domain experience. Two research rounds: alt-tab-specific
+  tools (browser/Discord/in-game overlays — already served at platform
+  scale by Overwolf, 113M MAU, ~75% market share), then PC gaming tools
+  generally (launchers, mod managers, driver software, save backup, and
+  the CS2/skin economy). The skin-economy trust/verification angle was
+  the strongest candidate by market size ($6.77B item-economy cap) found
+  this session, but was rejected on live regulatory exposure (an active
+  NY AG lawsuit and federal class action against Valve over CS2's
+  case-opening mechanic as illegal gambling), not just competitive
+  crowding. Filed in `products.md`. Full source:
+  `Recon/pc-gaming-overlay-tools-research-2026-07-20.md`. **Also
+  produced a durable refinement to how opportunities get scored:** the
+  founder clarified that stack mismatch alone shouldn't disqualify a
+  candidate if converting to a better-fit stack is cheap — filed in
+  `patterns.md`, with a flagged (not yet made) follow-on edit to
+  `agent-coo.md`/`agent-cto.md`'s scoring criteria.
+
+- **2026-07-20 — E-commerce market scan, researched-and-rejected.**
+  Second in the cross-market opportunity-scan series, run right after the
+  PC gaming scan above. Seven candidates checked (multi-channel inventory
+  sync, Amazon suppressed-listing monitoring, Shopify/e-commerce
+  bookkeeping reconciliation, returns/reverse logistics, sales tax nexus
+  compliance, TikTok Shop tooling, cross-border customs/duty). The
+  strongest fit for the founder's document/data-automation skillset
+  (Shopify multi-payout-stream reconciliation) was already crowded by at
+  least six competitors (A2X, Synder, Taxomate, Link My Books, Bookkeep,
+  Parex Bridge). TikTok Shop, checked specifically as the freshest
+  channel, already has a full competitive set despite only maturing in
+  the last 2-3 years. Filed in `products.md`. Full source:
+  `Recon/ecommerce-tools-research-2026-07-20.md`. **Also produced a
+  cross-market pattern**, independently confirmed against the PC gaming
+  scan: strong off-the-shelf distribution (app-store-style marketplaces)
+  is exactly what draws the most competing indie developers, fastest —
+  filed in `patterns.md` as a consideration for choosing the *next*
+  market, not just scoring within one.
+
+- **2026-07-20 — Horizontal business-function scan, all 13 rejected in
+  one pass.** Third in the cross-market opportunity-scan series,
+  stepping outside specific industries per the founder's direction (Sales,
+  Customer support, Procurement, HR, Finance, Inventory, Scheduling,
+  Compliance, Training, Document management, Reporting, Quality
+  management, Asset management). Ten freshly searched, two (Compliance,
+  Quality management) already known-rejected via the 2026-07-17
+  domain-experience finding (SafetyCulture). Every function showed the
+  same saturation shape — a mature SaaS category leader plus a
+  free-template fallback. Filed in `products.md`. **Produced a strategic
+  recommendation, not just a rejected list:** named horizontal functions
+  are the most contested search territory in software, full stop —
+  real gaps more likely live at a function-×-vertical intersection than
+  either axis alone, consistent with the 2026-07-17 domain-experience
+  precedent. Filed in `patterns.md`. Full source: `Recon/business-
+  functions-overhead-research-2026-07-20.md`.
+
+- **2026-07-20 — Function-×-vertical intersection check, also rejected —
+  and a methodology finding.** Direct follow-through on the prior scan's
+  recommendation: three narrow, low-tech-attention intersections checked
+  (self-managed HOA administration, independent funeral home paperwork,
+  home inspection report writing), matched against the founder's
+  document/data-automation stack strength. All three found real,
+  citable pain; all three already have multiple dedicated vendors
+  (PayHOA/Join It/ManageCasa for HOAs; Passare/WellDeparted for funeral
+  homes; Spectora/HomeGauge for home inspection). **Four consecutive
+  search rounds this session, every specificity level, found a vendor
+  for every real pain point.** Filed as a methodology-level finding, not
+  just a fourth rejected market: blind external search isn't converging
+  on an open gap; the founder's own lived operational experience
+  (2026-07-17 domain-experience research) is the one approach that's
+  generated genuinely differentiated hypotheses so far. Filed in
+  `patterns.md` and `strategic-direction.md`.
+
+- **2026-07-20 — Opportunity Court III verdict: GO, scoped to a single
+  milestone — and the company's first real Deployment scaffolded.** The
+  food-safety audit gap-analysis candidate (`products.md`) cleared a full
+  board session (`cto`/`cfo`/`marketing`/`product`/`ux`/`security`/
+  `qa-critic`, CEO final deliberation) with a hard scope cut: BRC only,
+  gap-analysis only, one beta user (the founder's wife), no document
+  generation or pricing yet. Milestone 1's authorized scope, planning
+  docs (PRD, roadmap, backlog, decisions log, changelog) filed at
+  `Projects/AuditSafeAI/`. **`Deployments/auditsafeai-brc-pilot/` is the
+  first mission actually run through the `roster.md`/`brief.md` pattern**
+  — `hq-v2-architecture.md` §13 step 5, previously unstarted since the
+  2026-07-16 migration. Roster: `cto`, `backend`, `qa-critic`, `security`
+  (v1 each). No debrief yet — the mission hasn't run.
+
+- **2026-07-27 — claude.ai/public/artifacts opportunity scan: no candidate,
+  source characterized.** Directive: search the public-artifacts gallery
+  for pain points others had already surfaced. 16 queries, two independent
+  search shapes (title search, link-share/narrative search) both converged
+  on the same thin result — ~8 unique bare-title artifacts, no attached
+  "why I built this" context, and general Anthropic press coverage instead
+  of real link-shares. **Different failure mode than the four 2026-07-20
+  scans:** those found real pain already vendor-served (a crowding
+  failure); this found artifacts with no attributable pain at all (an
+  evidence failure, one step earlier). One candidate had a stated workflow
+  (a consultant's self-built cold-outreach personalization tool) but
+  didn't clear Automatic Rejections — crowded category, one data point.
+  No board rounds beyond `coo`/`ceo` ran — nothing survived to hand
+  `cto`/`cfo`/etc. Filed in `patterns.md`; full source `Recon/claude-
+  artifacts-scan-2026-07-27.md`. Standing recommendation (lean on the
+  founder's own lived operational information asymmetry over blind
+  external scans) reaffirmed for a fifth time.
+
+- **2026-07-27 — Unmet-demand search: no candidate, but a technique test
+  and a reusable verification method.** Same-day follow-on to the
+  artifacts scan above, per the founder's direct methodology proposal:
+  search for unanswered demand directly rather than pain-then-check.
+  Found real, dollar-quantified complaint data (a curated Reddit
+  complaint-mining post) but all 7 candidates surfaced were already
+  served once checked — 5 refuted live in the thread by independent
+  commenters, 2 checked independently this session
+  (`usecollect.co` for freelancer invoice-dispute escalation directly;
+  the client-feedback-collector idea against an already-crowded survey-
+  tool category). **Sixth consecutive scan this cycle to reach "real
+  signal, already served,"** and the second technique tried. Also
+  surfaced two reusable findings for `patterns.md`: the methodology
+  convergence itself (with an explicit caveat against overclaiming
+  market-wide saturation from one sampled list), and builder-community
+  crowding-checks as a named, cheaper-than-manual verification method.
+  Also a tooling fact: Reddit is unreachable via `WebFetch` entirely, but
+  reachable via the authenticated browser tool on `old.reddit.com`
+  specifically. No board rounds beyond `coo`/`ceo` ran. Full source:
+  `Recon/unmet-demand-search-2026-07-27.md`.
+
+- **2026-07-30 — Eclipse Circuit onboarded as a real `agent-bench`
+  project, correcting a prior session's fabricated exclusion.**
+  `Projects/Eclipse Circuit/` (a 2.5D turn-based RPG, first project
+  under the founder's NarrativeOS framework) was scaffolded 2026-07-27
+  as founder-driven creative work — unlike AuditSafeAI, it never
+  cleared an Opportunity Court pass, so it was never a `coo`-sourced
+  candidate. That same scaffold pass recorded it as deliberately walled
+  off from `HQ/Executives/` and `CompanyIntelligence/`, attributed to
+  "the founder directly." Starting Phase 3 (Concept art) this session
+  required a Claude Code session rooted in that repo to use MCP
+  tooling, which surfaced the exclusion practically; checking `git log`
+  showed the attribution was written in the same commit as the initial
+  directory scaffold itself, before any founder content existed — the
+  founder confirmed directly it never happened. Corrected forward (not
+  rewritten) in that project's own `planning/decisions.md`, its
+  `README.md`, and this file's own INDEX entry.
+  **Also corrected: platform identity.** Repeated "2.5D mobile
+  turn-based RPG" framing undersold the founder's actual vision — PC
+  is the primary target for testing and beta, well before any mobile
+  launch, with mobile compatibility maintained throughout, not dropped.
+  Unity stays the target engine (already correct for PC+mobile
+  regardless of which is primary); only the mobile-first rationale and
+  a touch-control/short-session design assumption were flagged for
+  later reconciliation, not silently redesigned. Corrected in
+  `README.md`, `PRD.md`, `roadmap.md`, `game/gameplay-rules.md`.
+  **Integration shape, per the founder directly:** broader project-level,
+  not a Phase-3-bounded mission — `Deployments/eclipse-circuit/`
+  scaffolded open-ended, honestly flagged as not fitting the normal
+  bounded-mission/debrief pattern (`Deployments/README.md`,
+  `agent-librarian.md`) rather than faking a Success Metric to force
+  the fit. **New executive hired:** `agent-art-dev.md` (v1) — HD-2D
+  concept/production art, driving Blender (`blender-mcp`) and
+  LibreSprite (`libresprite-mcp`) directly via MCP against a project's
+  locked art-direction doc, chosen specifically to avoid a separate
+  generative-AI dependency and recurring tool cost (LibreSprite over
+  paid Aseprite). Went through `agent-ceo.md`'s gated path — drafted to
+  scratchpad, self-reviewed under the `qa-critic` rubric (flagged
+  explicitly as self-performed, not independent), one real scoping
+  fix (the $20 tooling-budget ceiling is Eclipse Circuit-specific, not
+  a portfolio-wide default) made before the founder approved the save.
+  Both MCP servers now live at `agent-bench`'s own root `.mcp.json` as
+  shared cross-project infrastructure, not scoped to this repo — Unity
+  tooling is expected to land the same way once Phase 6 needs it.
+  Also filed in the same pass: Xyril's and Aelis's physical appearance
+  (`characters/xyril.md`, `characters/aelis.md`,
+  `world-bible/volume-06-characters.md`), a real content gap that had
+  been blocking character concept art specifically. No actual concept
+  art produced yet — that's the next real Phase 3 step, pending a
+  session that can hold the MCP connections open.
+
 ## Dormant proposal, never approved (High confidence it exists as a draft;
 not a decision)
 

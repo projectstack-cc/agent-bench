@@ -1,5 +1,28 @@
 # Decisions
 
+## 2026-07-20 — Stack mismatch alone no longer auto-disqualifies an opportunity
+
+**Context:** During the PC gaming market scan (`products.md`,
+`Recon/pc-gaming-overlay-tools-research-2026-07-20.md`), the strongest
+technical wedge found (lightweight, standalone overlay engineering)
+required native Windows/DirectX skills outside the founder's default
+React/TypeScript/Cloudflare/Node stack.
+
+**Decision, per the founder directly:** a candidate opportunity should
+not be auto-rejected or scored down for not matching the current default
+stack if the actual cost to convert to a better-fit stack is low. This
+refines `agent-coo.md`'s Build Difficulty scoring and `agent-cto.md`'s
+Feasibility Doctrine ("stack-fit first") without rewriting either file
+yet — filed as a pattern in `patterns.md`, with the actual agent-file
+edit flagged as a required, gated follow-on, not made in this pass.
+
+**Not changed:** this doesn't waive feasibility assessment itself — `cto`
+still has to estimate conversion cost and risk before a candidate can be
+called cheap to convert. It changes what counts as an automatic
+disqualifier, not who verifies the claim.
+
+---
+
 One entry per structural decision — short, dated, never retroactively
 rewritten (correct it forward with a new entry instead). Recommended by
 the 2026-07-16 Executive Company Audit (`project_files/hq-executive-audit-2026-07-16.md`

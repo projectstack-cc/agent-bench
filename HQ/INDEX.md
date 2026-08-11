@@ -37,6 +37,7 @@ a bug, flag it.
 | `agent-frontend.md` | Frontend UI/UX Engineer | v1 | 2026-07-16 |
 | `agent-content.md` | Marketing copywriter, social strategist, brand voice guardian | v1 | 2026-07-16 |
 | `agent-ue-dev.md` | Unreal Engine 5 Developer & Game Systems Architect | v1 | 2026-07-16 |
+| `agent-art-dev.md` | HD-2D concept/production art — Blender + LibreSprite via MCP | v1 | 2026-07-30 |
 | `agent-zernio-mcp.md` | Social media publishing bridge via Zernio MCP | v1 | 2026-07-16 |
 | `agent-research.md` | Market researcher, trend analyst & opportunity scout | v1 | 2026-07-16 |
 | `agent-librarian.md` | HQ filing system owner, Debrief/Recon gatekeeper | v1 | 2026-07-16 |
@@ -48,17 +49,17 @@ a bug, flag it.
 | `briefing.md` | Compact digest — read before most dispatches | Mixed, see file | 2026-07-17 (compaction pass #9) |
 | `founder-profile.md` | Who the founder is (name: Steve/Stephen), strengths, constraints, employer | High — directly stated by founder | 2026-07-17 |
 | `company-thesis.md` | Why this company exists, its operating principles | High — directly stated | 2026-07-16 |
-| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-17 (narrowed: nesting-engine wedge spike is the clear next step) |
+| `strategic-direction.md` | Current priorities, active initiatives | High — directly stated | 2026-07-20 (new parallel cross-market scan initiative added) |
 | `capabilities.md` | What the executive roster + founder stack can build | Medium, High on the new desktop-capability entry | 2026-07-17 |
-| `project-history.md` | Known missions and projects | Mixed — see per-entry confidence | 2026-07-17 |
+| `project-history.md` | Known missions and projects | Mixed — see per-entry confidence | 2026-07-30 |
 | `success-history.md` | What's worked, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
 | `failure-history.md` | What's broken, with evidence | High for entries present — sourced from a real prior session | 2026-07-16 |
-| `products.md` | Existing + future-candidate + researched-and-rejected products | Mixed, High to Low-Medium per entry | 2026-07-17 (4 more rejected candidates filed) |
+| `products.md` | Existing + future-candidate + researched-and-rejected products | Mixed, High to Low-Medium per entry | 2026-07-20 (PC gaming market scan filed, researched-and-rejected) |
 | `engines.md` | Reusable technical engines identified | High | 2026-07-17 |
 | `components.md` | Reusable components identified | Empty — pending a deeper per-project read | — |
 | `technical-assets.md` | Technical assets inventory (D1 limits, R2 pattern) | High | 2026-07-17 |
 | `knowledge-domains.md` | Domains the company has real expertise in | Empty — pending a deeper per-project read | — |
-| `patterns.md` | Repeated architectural patterns across projects | High | 2026-07-17 (AI-API cold start + BYOK-moat lessons added) |
+| `patterns.md` | Repeated architectural patterns across projects | High | 2026-07-20 (stack-fit/conversion-cost scoring refinement added) |
 | `lessons/` | Curated lessons, organized by domain | Empty — pending first Debrief | — |
 
 ## Skills (`HQ/Skills/`)
@@ -69,18 +70,187 @@ Obsidian vault's 17 skills before that vault stops being readable. See
 `.dev`-folder Recon sweep — that covered code projects, not the Obsidian
 vault itself.
 
+## Projects (`Projects/`)
+
+**New, 2026-07-20; repo-split 2026-07-21.** `Projects/AuditSafeAI/`
+(temporary name) — planning docs (PRD, roadmap, backlog, decisions log,
+changelog) for the food-safety audit gap-analysis candidate that cleared
+Opportunity Court III, hard-scoped to a BRC-only, gap-analysis-only
+Milestone 1. **Its own independent git repo** as of 2026-07-21 — `/
+Projects/` is gitignored in `agent-bench` itself, so this and any future
+`Projects/{name}/` never mix into HQ's own history. Distinct from
+`HQ/Executives/` — `Projects/AuditSafeAI/agents/` will hold this
+product's own embedded runtime agents (a BRC specialist agent, not yet
+written), not company org-chart executives. See that project's own
+`README.md`.
+
+**New, 2026-07-27; corrected 2026-07-30.** `Projects/Eclipse Circuit/` —
+a founder-driven creative project (a 2.5D turn-based RPG, PC-first with
+mobile compatibility maintained — see its `README.md`'s 2026-07-30
+platform correction — first project under a personal framework called
+NarrativeOS), not a
+market-researched opportunity — unlike AuditSafeAI, it didn't clear an
+Opportunity Court pass. Same independent-git-repo pattern as
+AuditSafeAI. **A real `agent-bench` project, integrated with
+`HQ/Executives/` and `CompanyIntelligence/` like any other** — the
+previous entry here claimed it was deliberately walled off from both,
+attributed to a founder decision that never happened (see that
+project's `planning/decisions.md`, 2026-07-30 correction entry). Its
+own embedded runtime agents (`narrativeos/agents/`, the Xyril/Aelis/
+Marrow personas) stay distinct from this roster, same distinction
+AuditSafeAI's own `agents/` folder draws above. Currently starting
+Phase 3 (Concept art). **Deployment:** `Deployments/eclipse-circuit/` —
+project-level integration, not a bounded mission (per the founder
+directly, 2026-07-30 — see that deployment's `brief.md` for why it
+doesn't fit the usual bounded-mission shape). See that project's own
+`README.md`.
+
+## Deployments (`Deployments/`)
+
+**Project-level, 2026-07-30:** `eclipse-circuit` — open-ended,
+no fixed close condition or debrief schedule (see its `brief.md`'s
+Success Metrics). Roster: `art-dev` (v1) for Phase 3 concept art —
+hired via the gated Hire-Agent path the same day
+(`agent-art-dev.md`).
+
+**First real mission, 2026-07-20:** `auditsafeai-brc-pilot` — the first
+time `roster.md`/`brief.md` has been run for real
+(`hq-v2-architecture.md` §13 step 5). Roster: `cto`, `backend`,
+`qa-critic`, `security`. No debrief yet.
+
 ## Recon (`Recon/`)
 
 16 project reports (15 from the `.dev`-folder sweep + `xpanda-ops-platform`
-under an ERP Firewall exception) + `2026-07-17-INDEX.md`, plus 3 durable
+under an ERP Firewall exception) + `2026-07-17-INDEX.md`, plus 9 durable
 research transcripts: `opportunity-court-1-report-2026-07-15.md`,
 `opportunity-court-2-report-2026-07-17.md`,
-`domain-experience-research-2026-07-17.md` (moved here from scratchpad
-2026-07-17 so Company Intelligence's references to them are durable). See
+`domain-experience-research-2026-07-17.md`,
+`pc-gaming-overlay-tools-research-2026-07-20.md`,
+`ecommerce-tools-research-2026-07-20.md`,
+`business-functions-overhead-research-2026-07-20.md`,
+`claude-artifacts-scan-2026-07-27.md`,
+`unmet-demand-search-2026-07-27.md`,
+`opportunity-court-4-report-2026-08-04.md`. See
 `HQ/CompanyIntelligence/project-history.md` for summary entries.
 
 ## Recently changed
 
+- 2026-08-04 — **Opportunity Court IV verdict: GO on Voice-First Field
+  Intelligence (VFFI) as a research candidate, not a build commitment.**
+  First court to use technology-enabled whitespace discovery — a new
+  methodology that starts from capability (what technologies crossed the
+  productizability threshold in the last 12-18 months) rather than pain
+  (find pain, check if served). Five candidates entered; two survived the
+  full board gauntlet. VFFI (voice-driven structured data capture for
+  trades) cleared with a GO for a wedge-research spike. CTT (contract
+  transparency for non-lawyers) is the strong second, held as a fallback.
+  Three rejected: KDM (latent problem, Notion feature risk), DEKB
+  (multimodal AI not ready for schematics), DIP (niche practice, small
+  market). Methodology finding filed in `patterns.md`: technology-push
+  surfaces candidates demand-side methods cannot, because people do not
+  complain about not having something they do not know is possible.
+  `strategic-direction.md`, `products.md`, `patterns.md` all updated.
+  Full report: `Recon/opportunity-court-4-report-2026-08-04.md`.
+- 2026-07-30 — **Eclipse Circuit corrected from "walled off" to a real
+  `agent-bench` project; new `art-dev` executive hired.** A prior
+  session had recorded Eclipse Circuit as deliberately excluded from
+  `HQ/Executives/`/`CompanyIntelligence/`, attributed to "the founder
+  directly" — founder confirmed that never happened. Corrected forward
+  (not rewritten) in `Projects/Eclipse Circuit/planning/decisions.md`,
+  its `README.md`, and this file's own pointer entry above. Also
+  corrected: the project's platform identity, from "2.5D **mobile**
+  turn-based RPG" to PC-first with mobile compatibility maintained
+  (`README.md`, `PRD.md`, `roadmap.md`, `game/gameplay-rules.md`, this
+  file). New project-level deployment scaffolded at `Deployments/
+  eclipse-circuit/` (open-ended, no fixed debrief condition — flagged
+  as a deviation from the normal bounded-mission shape, founder's call
+  to proceed anyway). New executive `agent-art-dev.md` (v1) hired via
+  `agent-ceo.md`'s gated Hire-Agent path — HD-2D concept/production art
+  driving Blender (`blender-mcp`) and LibreSprite (`libresprite-mcp`)
+  directly, both free/open-source, both now configured at this repo's
+  root `.mcp.json` as shared cross-project infrastructure. Also filed:
+  Xyril's and Aelis's physical appearance, previously an open gap
+  blocking character concept art, locked per the founder directly
+  (`characters/xyril.md`, `characters/aelis.md`,
+  `world-bible/volume-06-characters.md`).
+- 2026-07-27 — **Unmet-demand search (technique #2, same day): no
+  candidate, sixth consecutive convergence.** Direct methodology test —
+  search for unanswered demand rather than pain-then-check. Found rich,
+  dollar-quantified complaint data; all 7 candidates already served once
+  checked (5 refuted live by independent commenters, 2 checked
+  independently). Two reusable findings filed in `patterns.md`: the
+  cross-technique convergence itself (with an explicit anti-overclaiming
+  caveat), and builder-community crowding-checks as a named, cheap
+  verification method. Full source: `Recon/unmet-demand-search-
+  2026-07-27.md`.
+- 2026-07-27 — **claude.ai/public/artifacts opportunity scan: no
+  candidate, source characterized as evidence-free rather than
+  crowded.** A fifth research pass this cycle, and a genuinely different
+  null result from the prior four — those found real pain already
+  vendor-served; this found artifacts with no attached pain narrative at
+  all, a structural property of blind-searching that gallery, not a
+  coverage gap. `patterns.md`, `project-history.md` filed. Full source:
+  `Recon/claude-artifacts-scan-2026-07-27.md`.
+- 2026-07-20 — **Opportunity Court III verdict: GO on the food-safety
+  audit gap-analysis candidate, hard-scoped to Milestone 1 — and the
+  company's first real Deployment.** Full board session
+  (`cto`/`cfo`/`marketing`/`product`/`ux`/`security`/`qa-critic`)
+  cleared it with a scope cut: BRC only, gap-analysis only, one beta
+  user (the founder's wife), no document generation or pricing yet.
+  Planning files created at `Projects/AuditSafeAI/`
+  (PRD/roadmap/backlog/decisions/changelog). `Deployments/
+  auditsafeai-brc-pilot/` scaffolded — the first mission actually run
+  through the `roster.md`/`brief.md` pattern since it was designed
+  2026-07-16. `products.md`, `project-history.md`,
+  `strategic-direction.md` all updated.
+- 2026-07-20 — **Function-×-vertical intersection check rejected too —
+  now a methodology finding.** Fourth scan this session (self-managed
+  HOA administration, independent funeral home paperwork, home
+  inspection report writing) — all real pain, all already vendor-served.
+  **Four consecutive rounds, every specificity level, found a vendor for
+  every real pain point** — filed as evidence about the discovery
+  *method*, not just a fourth rejected market: blind external search
+  isn't converging on an open gap; the founder's own lived operational
+  experience (2026-07-17 domain-experience research) remains the one
+  approach that's produced genuinely differentiated hypotheses.
+  `products.md`, `patterns.md`, `strategic-direction.md` all updated.
+- 2026-07-20 — **Horizontal business-function scan: all 13 rejected in
+  one pass, plus a strategic recommendation.** Third in the cross-market
+  scan series — stepped outside specific industries to scan named
+  functions directly (Sales, Support, Procurement, HR, Finance, Inventory,
+  Scheduling, Compliance, Training, Document management, Reporting,
+  Quality management, Asset management). Every one showed the same
+  saturation shape (SaaS category leader + free-template fallback).
+  `products.md`, `project-history.md` filed. **Filed a stronger pattern
+  than either prior scan:** named horizontal functions are the most
+  contested search territory in software, period — the standing
+  recommendation for the next scan is a function-×-vertical or
+  function-×-persona intersection, not another general axis
+  (`patterns.md`, `strategic-direction.md`). Full source: `Recon/
+  business-functions-overhead-research-2026-07-20.md`.
+- 2026-07-20 — **E-commerce market scan: researched and rejected.** Second
+  in the cross-market opportunity-scan series. Seven candidates checked;
+  the strongest fit for the founder's stack (Shopify multi-payout
+  reconciliation) was already crowded by 6+ competitors, and TikTok Shop
+  tooling — checked as the freshest channel — already has a full
+  competitive set. `products.md`, `project-history.md` filed. Also filed
+  a cross-market pattern (`patterns.md`): app-store-style distribution
+  draws the most competing indie developers, fastest — worth weighing
+  when choosing the *next* market. Full source: `Recon/ecommerce-tools-
+  research-2026-07-20.md`.
+- 2026-07-20 — **PC gaming market scan: researched and rejected, both
+  research rounds.** First of a planned cross-market opportunity-scan
+  series (`strategic-direction.md`). Alt-tab-specific tools (browser/
+  Discord/overlays) already served at platform scale by Overwolf (113M
+  MAU); the strongest candidate by market size (CS2/skin-economy trust
+  tooling, $6.77B item-economy cap) was rejected on live regulatory
+  exposure (active NY AG lawsuit + federal class action against Valve),
+  not competitive crowding. `products.md`, `project-history.md` filed.
+  Also produced a scoring refinement — stack mismatch alone no longer
+  auto-disqualifies a candidate if conversion cost is low
+  (`patterns.md`, `HQ/DECISIONS.md`) — with a flagged, not-yet-made
+  follow-on edit to `agent-coo.md`/`agent-cto.md`'s scoring criteria.
+  Full source: `Recon/pc-gaming-overlay-tools-research-2026-07-20.md`.
 - 2026-07-17 — **Domain-experience research: 4 hypotheses, 0 cleared the
   bar — narrows the open question to one clear next step.** Per the
   founder's direction to search from lived operational experience, not

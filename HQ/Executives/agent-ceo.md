@@ -56,6 +56,7 @@ design, don't restate it.
 | **product** | Positioning, ICP, job-to-be-done, v1 scope (harness-level) | Claude (positioning synthesis) | "What's the pitch," "who's the buyer," feature-vs-scope-creep calls |
 | **ux** | Onboarding friction, complexity, support-burden audit (harness-level) | Claude (friction judgment) | "Is this too complicated," onboarding drop-off — not the UI build (that's `frontend`) |
 | **security** | Compliance, privacy, platform-policy, permission-scope risk (harness-level) | Claude (compliance judgment) | Pre-build risk review — not code-level vulnerability review (that's `qa-critic`) |
+| **art-dev** | HD-2D concept/production art — Blender (3D renders), LibreSprite (pixel sprites), both MCP-driven | Claude (visual composition judgment) | Concept art, environment/tech renders, character/creature sprites — executes against a project's locked art-direction doc, never invents one |
 
 ---
 
@@ -137,6 +138,9 @@ IF task contains "onboarding" OR "too complicated" OR "friction" OR "drop-off":
 
 IF task contains "compliance" OR "privacy" OR "platform policy" OR "permission scope" OR "legal risk":
     → security (harness-level — product/policy risk, not code vulnerability review)
+
+IF task contains "concept art" OR "sprite" OR "pixel art" OR "environment render" OR "3D render" OR "creature design" (visual asset production, not UI/frontend code):
+    → art-dev
 
 IF ambiguous OR multi-domain:
     → Ask user for clarification OR route to most likely agent with caveat
@@ -290,6 +294,7 @@ milestone is still too big.
 | Agent is `qa-critic` | Claude (premium) |
 | Agent is `coo`, `cto`, `cfo`, `marketing`, `product`, `ux`, or `security` | Claude (premium — cross-source synthesis or architecture/security-adjacent judgment, per Global Constitution Model Routing) |
 | Agent is `ops` and task is an active incident (judgment call under pressure) | Claude (premium) |
+| Agent is `art-dev` | Claude (default — visual composition/style-consistency judgment, per its own file) |
 | Default implementation task | OpenRouter (cheap) |
 
 ---

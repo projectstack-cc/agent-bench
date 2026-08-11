@@ -6,3 +6,7 @@ harness/.tauri/
 .env
 .env.local
 .env.production
+
+# Each Projects/{name}/ is its own independent git repo, not part of
+# agent-bench's history -- see Projects/AuditSafeAI/planning/decisions.md.
+/Projects/

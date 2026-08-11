@@ -133,6 +133,202 @@ itself (versioned, hash-verified external dependencies for agent skills)
 is a pattern worth knowing about if `HQ/Skills/` ever needs to reference
 external, non-authored skills alongside its own.
 
+## Stack mismatch alone doesn't disqualify an opportunity — conversion cost does
+
+**Confidence: High** — explicit founder direction (2026-07-20), given
+while scoping the cross-market opportunity-scan initiative (see
+`strategic-direction.md`). Refines `agent-coo.md`'s scoring rubric and
+`agent-cto.md`'s "stack-fit first" doctrine: a candidate that doesn't fit
+the founder's default stack (React/TypeScript/Cloudflare/Node) should not
+be auto-rejected or scored down on that basis alone if the actual cost to
+convert it to a different, more suitable stack is low. The PC-gaming scan
+(`products.md`, `Recon/pc-gaming-overlay-tools-research-2026-07-20.md`)
+surfaced a concrete case this applies to: native Windows/DirectX overlay
+engineering is a real stack mismatch, but the question that actually
+matters is whether picking up or converting to the right stack for that
+specific opportunity is cheap, not whether it matches today's default.
+**Recommended follow-on, not made here:** `agent-coo.md`'s Build
+Difficulty scoring and `agent-cto.md`'s Feasibility Doctrine §1
+("stack-fit first") should get a gated edit reflecting this — flagged,
+not silently rewritten, per this company's own governance standard for
+agent-file changes.
+
+## App-store-style distribution is a magnet other indie developers already comb
+
+**Confidence: High** — observed independently in both markets scanned so
+far this session (PC gaming's Overwolf catalog, `Recon/pc-gaming-overlay-
+tools-research-2026-07-20.md`; e-commerce's Shopify App Store, `Recon/
+ecommerce-tools-research-2026-07-20.md`). A channel with strong built-in
+distribution (an app marketplace, a platform's own store) is exactly what
+`agent-coo.md`'s scoring rubric rewards most ("the easier distribution
+is, the higher the score") — but that same property makes it a magnet for
+every other developer running the same playbook. TikTok Shop specifically
+demonstrated this: a channel only ~2-3 years old already has a full
+competitive set of sync and profit-analytics apps. **Implication for
+future market scans:** a market with weaker off-the-shelf distribution
+may paradoxically have more real, unfilled gaps, precisely because it's
+less obvious to look at — worth weighing this explicitly against pure
+distribution-ease scoring when picking the next market, not just when
+scoring a candidate within one.
+
+## Named horizontal business functions are the most contested search territory
+
+**Confidence: High** — observed across all 13 functions checked in one
+pass (`Recon/business-functions-overhead-research-2026-07-20.md`),
+distinct from but compounding with the app-store-distribution pattern
+above. A *named* function (Sales, HR, Scheduling, etc.) is inherently
+guessable by every other founder who ever asked "what costs businesses
+money" — it's been continuously targeted since the 1990s ERP wave through
+today's microSaaS wave, so it arrives pre-saturated at every price tier
+(free template through enterprise) independent of any one industry's
+distribution channel. **Implication for future opportunity searches:**
+real gaps are more likely to live at the *intersection* of a specific
+function and a specific narrow vertical/persona than in either axis
+searched alone — consistent with the 2026-07-17 domain-experience
+research precedent, where genuine operational specificity reliably
+surfaced real pain (even where it didn't clear the crowding bar). `coo`
+should weight function-×-vertical specificity higher than "biggest named
+category" when scoring where to look next, not just when scoring a
+candidate once found.
+
+## Blind external market search is not converging on an open gap — lean on lived experience instead
+
+**Confidence: High** — four consecutive search rounds in one session
+(two industries, thirteen named functions, three specific
+function-×-vertical intersections; all filed in `products.md`/`Recon/`)
+found a committed vendor for every real, citable pain point, at every
+specificity level tried, down to genuinely obscure niches (self-managed
+HOAs, independent funeral homes, solo home inspectors). **This is
+evidence about the search method itself, not just about these four
+market sets.** Thirty-plus years of SaaS/vertical-software
+entrepreneurship has mapped the space of "named pain a web search can
+find" far more thoroughly than intuition suggests. The one approach this
+company has tried that produced genuinely differentiated-feeling
+hypotheses was the 2026-07-17 domain-experience research — drawn from
+the founder's own lived, non-searchable operational experience running
+`xpanda-ops-platform`, not a market search. **Standing implication:**
+future opportunity discovery should weight toward domains where the
+founder (or a reachable source) has real information asymmetry —
+something a competitor can't just Google — over another external scan
+across a new market or function. This doesn't mean external scans are
+worthless (they're still how competitive crowding gets verified) — it
+means they're better used to *evaluate* a lived-experience-sourced
+hypothesis than to *originate* one.
+
+## "AI-powered compliance" is a live land grab, not settled territory (2026)
+
+**Confidence: Medium** — observed while researching the food-safety
+audit gap-analysis candidate (`products.md`). Multiple vendors (IONI,
+Superior Food Safety, generic tools like ai-gap-analysis.com) are
+actively branding "AI-powered gap analysis" for regulatory/compliance
+document review right now, with content as fresh as January 2026 —
+distinct from the mature, decade-old QMS incumbents (SafetyChain,
+FoodLogiQ) in the same space. **Implication:** unlike the fully-settled
+categories found in the last four scans, an "AI + compliance" niche found
+this early in its own land-grab phase may still have room for a
+better-executed entrant, precisely because quality and positioning
+haven't converged yet — worth distinguishing "already has AI-branded
+competitors" from "already settled" when scoring a candidate in any
+similarly fast-moving AI-adjacent category going forward.
+
+## A revealed-preference source can be evidence-free even when it's real
+
+**Confidence: High** — observed directly (`Recon/claude-artifacts-scan-
+2026-07-27.md`, 16 queries, two independent search shapes). Distinct from
+the 2026-07-20 "blind search converges on vendor-served pain" finding
+above, which was a *crowding* failure — real, citable pain found, always
+already served. This is an earlier-stage failure: `claude.ai/public/
+artifacts`, searched via blind web indexing, surfaces what people built
+without the narrative of why — a title ("Daily Budget Calculator") is not
+evidence of the frustration behind it, and asserting one from the title
+alone is exactly the invented-user-sentiment failure Core Principle 3 and
+the Global Constitution's Rule 1 exist to block. **Implication:** not every
+plausible-sounding discovery channel converts to usable evidence just
+because it's populated by real people solving real (if unstated) problems
+— a source needs the *complaint*, not just the *artifact*, to be usable by
+`coo`. If this specific source is revisited, it should be through direct
+authenticated gallery access (this session's tooling 403'd on
+`madewithclaude.com`/couldn't reach `claudeartifacts.net`), not blind
+search, which is structurally capped at bare titles.
+
+## AI-assisted one-off tooling is eroding the low end of consumer app markets
+
+**Confidence: Medium** — a reasoned observation from the same scan above,
+not independently verified against usage data. The handful of artifacts
+that did surface (budget calculator, meal planner, exam study planner)
+sit in maximally saturated consumer categories already served by
+thousands of existing apps. Their existence isn't a market-gap signal —
+it's evidence that for a short-lived personal need, a user building their
+own five-minute tool now beats searching an app store, now that Claude
+artifacts make building free and instant. Not an opportunity for this
+founder (these are single-user throwaway tools, not products with
+buyers), but worth carrying forward as a standing caveat on any future
+consumer-app-category candidate `coo` scores: the bar for "is this
+underserved" may be moving as build-your-own gets easier for end users
+directly, independent of competitor headcount.
+
+## Demand-first search converges on vendor-served, same as pain-first search
+
+**Confidence: High** — observed directly (`Recon/unmet-demand-search-
+2026-07-27.md`). A direct methodology test, requested by the founder after
+the same-day artifacts scan: instead of finding pain and checking whether
+it's solved, search directly for unanswered "does this exist" asks and
+curated complaint-mining posts framed explicitly as "nobody's built this."
+Seven candidates surfaced from the richest single source found (a 305-
+point, 107-comment Reddit post with dollar-quantified complaints) — all
+seven, once checked, already have a named, live competitor. **Sixth
+consecutive research pass this cycle to reach "real signal, already
+served"**, and the second to use a materially different technique from
+the first four. **Explicit caveat, not to be dropped in future citations
+of this finding:** this pass sampled one curated list from one poster with
+a commercial incentive (they're marketing their own idea-database product
+off the same post) to make ideas sound open, and the sample is itself the
+most picked-over possible one — a high-engagement post builders have
+already been reading and acting on for months. This is evidence that two
+different techniques converge, not proof the market is universally
+saturated; don't cite it as the latter.
+
+## Builder-community crowding-check as a named verification technique
+
+**Confidence: High** — the mechanism, not any specific finding, is the
+reusable output. In `Recon/unmet-demand-search-2026-07-27.md`, five of
+seven candidate ideas were refuted by name-specific competitors named
+*unprompted* by independent commenters in the same Reddit thread the
+ideas were posted to — no `coo` research budget spent on those five.
+Unprompted, financially-disinterested, hostile-by-default community
+crowding-checks are faster and higher-signal than one-at-a-time
+competitive WebSearches. **Implication for future opportunity vetting:**
+before or alongside a manual competitive-crowding check, look for (or
+create) a forum/community context where a candidate idea would get this
+kind of adversarial, free verification — it's a cheaper first pass than
+building the check yourself.
+
+## Technology-enabled whitespace discovery as a third methodology, distinct from pain-point mining and demand-first search
+
+**Confidence: Medium-High** — observed directly during Opportunity Court IV
+(2026-08-04, `Recon/opportunity-court-4-report-2026-08-04.md`), the first
+court to use this methodology. When demand-pull methods (pain then check if
+served) and demand-first methods (unmet demand then check if served) both
+converged on "already vendor-served" across six consecutive research passes
+(the standing finding above), technology-push methods (identify newly-
+possible capabilities, check if productized, evaluate as business) surfaced
+five genuinely novel candidates that demand-side methods would never have
+found — because **people don't complain about not having something they
+don't know is possible.** Pain-point mining finds pain that's already been
+identified and served. Technology-enabled whitespace discovery finds
+opportunities enabled by new technology but not yet identified as pain —
+because the solution didn't exist when the pain was felt, so people built
+workarounds and stopped looking. Two of the five candidates (VFFI and CTT)
+survived the full board gauntlet; one (VFFI) cleared with a GO for research
+spike. **Implication for future opportunity discovery:** when demand-side
+methods converge on saturation, switch to technology-push — identify what
+crossed the productizability threshold in the last 12 to 18 months
+(Whisper, structured output, RAG, multimodal AI, AI agents, local LLMs)
+and search for product categories that are now technically possible but
+haven't been built yet. This doesn't replace demand-side methods — it
+complements them. Demand-side verifies competitive crowding; technology-
+push originates candidates that demand-side can't.
+
 ## Historical note, not a live pattern
 
 Pre-HQ, a `Agents/` CEO-harness folder (the same convention this

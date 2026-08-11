@@ -1,7 +1,11 @@
 # Deployments
 
-Each subfolder is one mission: `Deployments/{mission-slug}/`. Nothing
-here yet — no mission has run through this pattern for real.
+Each subfolder is one mission: `Deployments/{mission-slug}/`.
+
+**`auditsafeai-brc-pilot`** (2026-07-20) is the first mission run
+through this pattern for real — a BRC-only gap-analysis technical
+validation pilot for `Projects/AuditSafeAI/`. See its `roster.md`/
+`brief.md`. No `debrief.md` yet — the mission hasn't run.
 
 ## Structure per mission
 

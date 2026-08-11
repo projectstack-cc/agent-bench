@@ -12,6 +12,108 @@ guarantee of current completion state where noted as unread.
 **Confidence: High on the technical asset; the market plan is the
 founder's own stated intent, not yet a scoped mission.**
 
+## Food-safety audit gap-analysis platform (SQF/BRC/FDA/FSQA) — active candidate, not yet scored (2026-07-20)
+
+**Confidence: Medium** — real, lived-experience-sourced demand (the
+founder's wife directly requested this be built: drop a zip of existing
+audit/compliance documents, parse it, identify gaps against SQF, FSQA,
+FDA, and BRC requirements). This is the first candidate all session
+sourced from genuine information asymmetry rather than a blind market
+scan — see `patterns.md`'s "lean on lived experience" finding. **Not
+rejected, but not yet clear either** — real, already-forming competition
+found in the exact product shape described, so scoring needs more detail
+from the wife directly before this goes further.
+
+**Market is real and large:** Food safety/HACCP compliance software is
+estimated at roughly $1–4B in 2026 depending on market definition,
+growing at 8–12% CAGR, driven by FDA FSMA and GFSI-scheme (SQF/BRC/FSSC
+22000) certification requirements. Pain is real and well-documented:
+audit prep is a genuine time sink, and "gap between written procedure and
+actual practice" is explicitly named as one of the most common
+audit-failure patterns.
+
+**Direct competition already exists in almost exactly this shape:**
+IONI (`ioni.ai`) explicitly supports uploading SOPs/HACCP
+plans/recipes/supplier certificates (Word/PDF/Excel, "no reformatting")
+and using AI to read them against SQF, BRCGS, FSMA, CFIA, and FSSC 22000
+— very close to the described workflow, though positioned toward
+*building* a compliance program from documents rather than *checking* an
+existing one before a recertification audit. Superior Food Safety runs a
+"GFSI Readiness Assessment AI" (positioned more as a consulting
+lead-generator than a standalone self-serve product). FoodReady and
+iFactory are AI-branded but are actually ongoing QMS/IoT-monitoring
+platforms, not document-upload gap-checkers — a real distinction, not
+just naming. The broader established category (SafetyChain, FoodLogiQ,
+TraceGains, Icicle, QT9, FoodDocs) is enterprise-sales-cycle, ongoing-QMS
+software, not self-serve document analysis. **This space is in an active
+"AI-powered compliance" land grab as of very early 2026** (IONI's own
+content dated January 2026) — the market hasn't settled, quality bars
+appear inconsistent across entrants, but it is genuinely being raced for
+right now, not empty.
+
+**Answered directly by the founder, 2026-07-20 — this sharpens
+considerably:**
+
+- **Role:** Quality and FSQA Systems Manager overseeing **two branches
+  currently, with active growth toward more** — a real multi-site
+  persona, not a single-facility user. Matters because a multi-site FSQA
+  manager's tool needs (cross-branch consistency, comparable scoring
+  across sites) are a meaningfully different product than a single-plant
+  QA tool.
+- **Hasn't tried IONI or any competitor** — not because she's unaware of
+  the pain, but because **her employer has already judged existing
+  tools' cost too high.** This is direct, first-hand pricing-gap
+  evidence from inside the actual target segment, stronger than anything
+  surfaced by web search this session — the enterprise-priced incumbents
+  genuinely don't reach this buyer.
+- **Go-to-market already de-risked:** the founder does not plan to
+  charge her — she becomes the flagship beta user, getting free access
+  in exchange for real usage reports. Real-user validation before any
+  commercialization decision, no cold distribution problem to solve
+  first.
+- **The recertification-vs-build distinction is confirmed real, and
+  specific:** per the founder relaying her expertise — an initial
+  certification audit treats a program as "infantile," tolerates more
+  gaps, and pushes the facility into the certification. **Recertification
+  is materially harder**, specifically hunting for gaps that existed
+  originally and were never fixed, new gaps that formed over time, and
+  drift/decay in the program. IONI's "build your plan, live in days not
+  months" framing is optimized for the *first* job; her need is squarely
+  the *second* — a genuinely distinct, underserved position, not just a
+  restatement of what IONI already does.
+- **V1 scope, as she described it:** upload the existing compliance
+  system, get a score calibrated to what an actual auditor evaluates,
+  identify specific gaps, get suggested fixes.
+- **V2 scope:** generate corrected/updated **controlled documents only**
+  (SOPs, food safety plans, and similar program documents) as
+  downloadable .doc files. **Explicitly and deliberately excludes any
+  filled-out record/log document** — reason: the system must never
+  enable or resemble "pencil whipping" (falsifying records to show work
+  that wasn't actually done, a real food-safety-integrity and liability
+  concern, not a hypothetical one). **Correction (2026-07-20): this
+  boundary is the founder's own quality-management experience (a
+  different industry), not the wife's — she asked for the tool, the
+  document-control scope discipline is the founder's domain judgment
+  applied to her request.** Both work in quality; don't attribute this
+  specific insight to her specifically going forward.
+
+**Real risk to name, not soften:** this product would be giving
+compliance judgments about food safety programs. A wrong gap analysis
+(missing a real critical gap) or a flawed auto-generated SOP carries
+real liability exposure — this is advisory software in a domain where
+"advisory" still touches public-health stakes, not simply a
+convenience tool. Her own no-pencil-whipping boundary is exactly the
+right instinct; the same rigor needs to extend to the tool always being
+reviewed by a qualified human before anything it produces is
+implemented, and to being explicit about what it is (a second-opinion
+gap-check) versus what it isn't (a replacement for professional
+judgment). Flagged for `security` and `cto` review, not treated as
+disqualifying — unlike the skin-economy candidate's regulatory exposure,
+this is a design-discipline risk, addressable by scope and disclosure,
+not a structural dead end.
+
+**Not yet run:** a real `cto`/`product`/`cfo`/`security` evaluation.
+
 Currently built and maintained by the founder as an employee of XPanda
 Foam (salaried role — not this company's asset today, generates no
 current revenue). **The founder owns the platform's IP and has a concrete
@@ -43,6 +145,101 @@ own task-executing agents against a real production system at XPanda
 Foam, and the founder cannot risk any failure there. Extraction means
 building a new, separate implementation informed by the founder's own
 knowledge of the pattern, not touching the live repo.
+
+## Voice-First Field Intelligence (VFFI) — active candidate, GO for research spike (2026-08-04)
+
+**Confidence: Medium-High** — the first candidate sourced through
+technology-enabled whitespace discovery (a new methodology, see
+`patterns.md`), not pain-point mining or demand-first search. Cleared
+Opportunity Court IV's full board gauntlet (`coo`/`ceo`/`cto`/`cfo`/
+`marketing`/`product`/`ux`/`security`/`qa-critic`). Full report:
+`Recon/opportunity-court-4-report-2026-08-04.md`.
+
+**What it is:** Field workers (electricians, plumbers, HVAC techs,
+roofers, inspectors) dictate what happened on a job site in natural
+language. The AI structures it into: project progress updates, time
+tracking entries, material lists, client reports, and follow-up tasks —
+without anyone touching a keyboard or filling out a form.
+
+**Why now (technology thresholds crossed in 2024):** Whisper API made
+speech-to-text free ($0.006/min) and accurate in noisy environments.
+Structured output (JSON mode) made it reliable enough for business data.
+The combination — voice input → AI structuring → business data — was not
+productizable 18 months ago. It is now.
+
+**Competitive whitespace:** No voice-first + AI-structured data capture
+tool exists for trades. Procore ($30B+ market cap), BuilderTrend
+($200+/mo), and Fieldwire (acquired by Hilti) are all keyboard/tablet-
+first and enterprise/mid-market. Voice dictation apps (Dragon, Otter)
+don't structure output into business data. The intersection is empty.
+
+**Unit economics:** $39/mo pricing, ~$3.50/mo variable cost (Whisper +
+LLM API), 91% gross margin. No AI-API cold-start risk (cheap free trial:
+~$0.15 for 5 voice captures). Path to $5K/mo: 130 users (0.005% of 2.5M
+US trade businesses).
+
+**Distribution:** Trade associations (IBEW, PHCC, ACCA, NRCA) — not
+app-store-style distribution. Buyer reachable without audience-building
+or content marketing. Direct outreach via state contractor license
+databases is feasible.
+
+**Founder fit:** Steve has field-operations experience (XPanda Foam is a
+manufacturing business with field operations). Understands the paperwork
+burden from the inside.
+
+**Stack fit:** React + Cloudflare Workers + Whisper API + LLM API. All
+within the founder's proven stack. Reusable assets: Stripe subscription
+billing engine (`engines.md`), Clerk + Supabase pattern (`patterns.md`).
+Build time (MVP): 4–6 weeks.
+
+**Key risk (testable before building):** Trade-specific terminology
+accuracy. Trades have highly specific jargon ("12-2 ROMEX," "THHN wire,"
+"schedule 40 PVC," "NEC 210.8(A)"). General AI models may not know these
+terms. **Kill switch:** feed 10 real electrician field-work descriptions
+through the pipeline; if accuracy is below 80%, the product needs a
+trade-specific vocabulary layer (a moat, but a 2–4 week addition).
+
+**Status: GO for a wedge-research spike, not a build commitment.** Three
+tests: (1) terminology accuracy test (1 day), (2) buyer validation — talk
+to 5–10 trade business owners about paperwork burden (1 week), (3)
+competitive check — verify no one has built this since the last court
+(1 day). If all three pass, scope a Milestone 1 MVP (electricians only,
+one beta user, 4–6 week build). If buyer validation fails, fall back to
+CTT (below).
+
+## Contract Transparency Tool (CTT) — HOLD, strong second product (2026-08-04)
+
+**Confidence: Medium** — survived Opportunity Court IV's full board
+gauntlet but ranked below VFFI on liability risk and occasional-use
+pattern. Worth revisiting as a second product after VFFI establishes
+revenue. Full report: `Recon/opportunity-court-4-report-2026-08-04.md`.
+
+**What it is:** Upload any contract (SaaS agreement, lease, employment
+offer, vendor agreement, freelancer contract). The AI reads it and flags
+risky clauses in plain language — "this auto-renews unless you cancel 60
+days before," "you're liable for indirect damages," "this IP assignment
+covers work you do on your own time." Not legal advice — risk awareness.
+
+**Why now:** RAG + legal document understanding + structured output all
+crossed the productizability threshold in 2024. AI can now reliably
+understand legal language and identify risk patterns.
+
+**Competitive whitespace:** No plain-language contract risk reader for
+non-lawyers exists. LawGeex, Ironclad are enterprise ($500+/mo).
+LegalZoom is document generation, not analysis. The gap between is empty.
+
+**Why ranked below VFFI:** (1) Liability risk — if the tool misses a
+risky clause, real harm + potential lawsuit. Mitigated by scope ("risk
+awareness, not legal advice") but not eliminated. (2) Occasional-use
+pattern — people sign contracts maybe once a month, making retention
+harder. VFFI's daily-use pattern means lower churn.
+
+**Unit economics:** $25/mo pricing, ~$0.10/contract variable cost, 85%
+gross margin. Path to $5K/mo: 200 users. But occasional-use churn risk
+makes the path less certain than VFFI's.
+
+**Fallback if VFFI buyer validation fails:** Run the same spike pattern
+(legal accuracy test, buyer validation, competitive check).
 
 ## ProjectStack Web Solutions
 
@@ -184,3 +381,218 @@ constraint in all five candidates evaluated (these four plus the nesting
 engine). Domain fluency reliably generates real hypotheses; it doesn't by
 itself find an uncontested market. Full research and sources:
 `Recon/domain-experience-research-2026-07-17.md`.
+
+## Researched and rejected — PC gaming market scan (2026-07-20)
+
+**Confidence: High** — every claim below is sourced and cited in the full
+report; see `Recon/pc-gaming-overlay-tools-research-2026-07-20.md`. First
+of a planned series of cross-market scans, run independent of
+`xpanda-ops-platform`'s domain experience — see `strategic-direction.md`.
+
+Two full research rounds (alt-tabbed-to tools specifically, then PC
+gaming tools generally) found real pain in every direction, and none of
+it cleared the evidence bar:
+
+- **In-game overlay/browser/companion apps** (the "what do gamers
+  alt-tab to" angle) — real, well-documented pain (88% of players use a
+  browser while gaming; alt-tab causes a real FPS/stutter penalty), but
+  already served at platform scale by Overwolf (113M MAU, ~75% of the
+  third-party game-enhancement market, $100M ad revenue in 2024). The
+  narrower "lightweight, non-Overwolf-dependent" wedge is real (Hexgate
+  proves it viable) but is a distribution uphill fight against a free
+  incumbent and requires native Windows/DirectX overlay-hooking
+  engineering — a stack mismatch against the founder's React/TypeScript/
+  Cloudflare profile.
+- **CS2/skin-economy trust & verification tooling** — the strongest
+  candidate by market size found this session ($6.77B item-economy
+  market cap, ~27.9M distinct owners), with real, specific friction
+  (verifying third-party trading-site legitimacy before trading). **Not
+  pursued despite the market size**, for two reasons: already served
+  (SkinSearch, ProConsumer, Scamadviser, Trustpilot-reliance are the
+  community's existing norm), and it sits on live, escalating legal
+  exposure — an active New York AG lawsuit against Valve (Feb 2026) and
+  a federal class action (Mar 2026) both target CS2's case-opening
+  mechanic as illegal gambling, with FTC and EU regulatory precedent
+  moving the same direction. Close enough to `coo`'s "heavy compliance"
+  Automatic Rejection category to disqualify as a primary recommendation,
+  not just a low score.
+- **Multi-launcher fragmentation, mod manager friction, game-save
+  backup/cloud-sync gaps** — all real, all already adequately served by
+  an existing free tool or entrenched incumbent (Playnite, Nexus Mods'
+  Vortex, Ludusavi), with insufficient evidence of an underserved,
+  monetizable gap behind any of them.
+
+**Net effect:** the whole PC gaming tools market is filed as researched-
+and-rejected, not just one idea within it — so it isn't re-scanned blind
+later without new information. Full research and sources:
+`Recon/pc-gaming-overlay-tools-research-2026-07-20.md`.
+
+## Researched and rejected — e-commerce market scan (2026-07-20)
+
+**Confidence: High** — every claim below is sourced and cited in the full
+report; see `Recon/ecommerce-tools-research-2026-07-20.md`. Second in the
+cross-market opportunity-scan series, run immediately after the PC gaming
+scan above.
+
+Seven candidates researched — multi-channel inventory sync, Amazon
+suppressed-listing monitoring, Shopify/e-commerce bookkeeping
+reconciliation, returns/reverse logistics, sales tax nexus compliance,
+TikTok Shop tooling, and cross-border customs/duty calculation — and none
+cleared the evidence bar:
+
+- **Multi-channel inventory sync** — real pain, well-served across price
+  tiers (Sellbrite for small sellers, Linnworks/ChannelAdvisor for
+  enterprise, though ChannelAdvisor draws real cost complaints).
+- **Amazon suppressed-listing monitoring** — severe, well-evidenced pain
+  (one seller reported losing $50–55K in two weeks) but already served
+  by real-time monitoring products (SentryKit, AmzMonitor, SellerPulse).
+- **Shopify/e-commerce bookkeeping reconciliation** — the strongest fit
+  for the founder's document/data-automation skillset (Shopify's
+  multi-payout-stream reconciliation is reportedly the #1 QuickBooks
+  Online ecommerce error), but already crowded across price tiers: A2X,
+  Synder, Taxomate, Link My Books, Bookkeep, Parex Bridge — at least six
+  direct competitors. Real quality complaints exist against incumbents
+  (an execution-quality opening, not an open market).
+- **Returns/reverse logistics** — large (~30% return rate) but dominated
+  by well-funded, enterprise-leaning incumbents (Loop, Narvar, AfterShip
+  Returns).
+- **Sales tax nexus compliance** — genuine anxiety-driven pain, already
+  well-served (Avalara, TaxJar, Numeral, Quaderno), and carries real
+  accuracy/liability stakes if a tool gets a jurisdiction wrong —
+  compliance-adjacent caution, not pursued.
+- **TikTok Shop tooling** — the freshest channel checked specifically to
+  test whether a newer platform is still underserved; it isn't. Already
+  has a full competitive set (Dashboardly, Glew, TrueProfit for profit
+  analytics; ShopSync, SlashCart, QuickSync, VeriSync, SKU IQ, AfterShip
+  for sync) within roughly 2-3 years of the channel existing.
+- **Cross-border customs/duty calculation** — inconclusive; only
+  surfaced factual documentation, not evidence of active user
+  frustration.
+
+**Pattern worth carrying into the next market scan:** every candidate
+with strong off-the-shelf distribution (Shopify App Store specifically)
+was already crowded — often within a couple of years of the underlying
+channel even existing. App-store-style distribution is exactly what
+`coo`'s own scoring rubric rewards most, and that's precisely why other
+indie developers find and fill these gaps fast. A market with weaker
+off-the-shelf distribution might paradoxically have more real, unfilled
+gaps for that reason. Full research and sources:
+`Recon/ecommerce-tools-research-2026-07-20.md`.
+
+## Researched and rejected — horizontal business-function scan, all 13 (2026-07-20)
+
+**Confidence: High** — every claim below is sourced and cited in the full
+report; see `Recon/business-functions-overhead-research-2026-07-20.md`.
+Third in the cross-market opportunity-scan series, stepping outside
+specific industries per the founder's direction to scan named business
+functions directly: Sales, Customer support, Procurement, HR, Finance,
+Inventory, Scheduling, Compliance, Training, Document management,
+Reporting, Quality management, Asset management.
+
+**Every one of the thirteen shows the identical saturation shape:** a
+mature, named SaaS category with a free-template fallback at the bottom
+and paid competitors at every price tier up to enterprise. Ten were
+freshly searched; Compliance and Quality management were already known
+rejected via the 2026-07-17 domain-experience research (SafetyCulture
+dominates both). No specific, differentiated, underserved gap surfaced in
+any of the ten fresh searches.
+
+**The real finding is strategic, not a rejected product list:** named
+horizontal business functions are, if anything, *more* contested than
+either vertical market scanned so far this session — they're the most
+obvious, most continuously-targeted unit of market segmentation in all of
+software, going back to the 1990s ERP wave through today's microSaaS
+wave. Searching "which named function has pain" is structurally searching
+the most heavily mapped territory that exists. **Recommendation:** the
+next scan should target a specific function-×-vertical or
+function-×-persona intersection — a narrow enough slice that general
+tools are a known poor fit — not another general function or industry
+taken alone. Full research and sources:
+`Recon/business-functions-overhead-research-2026-07-20.md`.
+
+## Researched and rejected — function-×-vertical intersection check (2026-07-20)
+
+**Confidence: High.** Direct follow-through on the recommendation above:
+three specific, narrow, low-tech-attention function-×-vertical
+intersections were checked (document/reporting automation matched against
+the founder's stack strength) rather than another general axis —
+self-managed HOA administration, independent funeral home paperwork, and
+home inspection report writing. **All three found real, specific,
+citable pain — and all three already have multiple dedicated vendors:**
+
+- **Self-managed HOA administration** (meeting minutes, violation
+  tracking, compliance) — real pain (volunteer boards, ~27–30% of US
+  associations self-managed), but already served by name-specific
+  vendors across price points: PayHOA ($54/mo flat), Join It ($29/mo),
+  ManageCasa, Perfect HOA, Solume, Communitrak.
+- **Independent funeral home paperwork** (death-certificate filing,
+  double data entry) — real, well-articulated pain, already served
+  (Passare, integrating directly with state Electronic Death
+  Registration Systems; WellDeparted, from $49/mo; Smart Director; SRS
+  Procession). Passare draws real complaints (weak QuickBooks
+  integration/reporting) — a possible execution-quality opening, not an
+  open market.
+- **Home inspection report writing** (2–4 hours per report, the
+  single biggest time sink in solo inspection businesses) — real,
+  severe, well-quantified pain, already served by name-specific,
+  mature tools (Spectora, HomeGauge, Home Inspector Pro, DoorstepHQ)
+  with dictation and comment-library features already standard.
+
+**The finding that actually matters:** even fairly obscure, low-profile
+verticals already have dedicated software. Four consecutive search
+rounds this session — two industries, thirteen named functions, and now
+three specific function-×-vertical intersections — have found a
+committed vendor for every real pain point identified, at every level of
+specificity tried. **This is evidence about the search method, not just
+the four market sets:** external market research (searching for named
+pain and checking who already serves it) is not converging on an open
+gap. The one approach that generated genuinely differentiated-feeling
+hypotheses all session was the 2026-07-17 domain-experience research —
+drawing on the founder's own lived, non-searchable operational
+experience, not a market search. Recommendation carried to
+`strategic-direction.md`: the next move should draw on a domain the
+founder (or a reachable source) has real information asymmetry in,
+rather than a fifth blind external scan.
+
+
+## Researched and rejected — technology-enabled whitespace discovery, Court IV (2026-08-04)
+
+**Confidence: High.** Three candidates from Opportunity Court IV that did
+not survive the full board gauntlet. Recorded so they aren't re-researched
+later without new information. Full report:
+`Recon/opportunity-court-4-report-2026-08-04.md`.
+
+- **Knowledge Decay Monitor (KDM)** — an AI that monitors documentation
+  (Notion, Confluence, GitHub wikis) for staleness and flags knowledge at
+  risk of being lost when key employees leave. **Rejected by QA-Critic:**
+  the problem is latent, not felt — most teams don't know their docs are
+  stale until something breaks, and selling prevention is harder than
+  selling cure. Plus the feature of Notion risk is too strong — Notion,
+  Confluence, and GitBook all have the data and AI capability to add
+  staleness monitoring as a native feature. The cross-tool integration
+  angle is the only real moat, and that is a complex integration play.
+
+- **Dynamic Equipment Knowledge Base (DEKB)** — upload equipment manuals
+  (PDFs with text, schematics, and diagrams), get an AI that answers
+  equipment-specific questions. **Rejected on technology immaturity:**
+  multimodal AI can understand some technical diagrams, but specialized
+  schematics are beyond current capability. The knowledge that matters
+  (tribal knowledge, service bulletins, forum posts) is not in the manual
+  anyway. This candidate is ahead of its technology — revisit when
+  multimodal AI can reliably read specialized schematics.
+
+- **Personal Decision Intelligence Platform (DIP)** — an AI-powered
+  decision journal that tracks decisions, outcomes, and builds a personal
+  decision-quality scorecard. **Rejected on market size:** decision
+  journaling is a niche practice (Kahneman, Annie Duke), not a mass market.
+  The outcome feedback loop is too long (6+ months for most decisions) to
+  drive engagement. The buyer (individual knowledge worker) has low
+  willingness to pay and high churn risk. The most genuinely novel candidate
+  — the category does not exist at all — but also the weakest business.
+
+**Methodology note:** these three were sourced through technology-enabled
+whitespace discovery, not pain-point mining — see patterns.md new
+technology-enabled whitespace discovery finding. Two candidates from the
+same court survived (VFFI and CTT, above) — the methodology produced a
+different result than six consecutive demand-side passes, which all
+converged on real pain, already vendor-served.
