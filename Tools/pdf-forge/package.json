@@ -1,0 +1,14 @@
+{
+  "name": "pdf-forge",
+  "version": "1.0.0",
+  "description": "Local CLI: converts a PDF to clean Markdown (headings, lists, tables, image placeholders, YAML frontmatter).",
+  "main": "pdf-forge.js",
+  "bin": {
+    "pdf-forge": "pdf-forge.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  }
+}

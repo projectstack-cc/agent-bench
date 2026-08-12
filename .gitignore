@@ -2,6 +2,7 @@ harness/node_modules/
 harness/dist/
 harness/src-tauri/target/
 harness/.tauri/
+node_modules/
 *.local
 .env
 .env.local
