@@ -69,13 +69,9 @@ evaluates, not where the tool starts.
 
 ## Debrief
 
-**Not written yet.** Trigger: after the founder has used `pdf-forge.js`
-on 3 real PDFs from their Downloads folder, within 48 hours of delivery.
-Write `Deployments/pdf-forge-pilot/debrief.md` at that point, run through
-`agent-librarian.md`'s Debrief Gate, covering:
-
-- Accuracy of heading detection.
-- Table handling quality (real tables vs. bullet fallback rate).
-- Speed against the 5-second/10-page bar.
-- An explicit recommendation on whether this should become a standard
-  tool registered in `HQ/Skills/`.
+**Written 2026-08-26** — see `debrief.md`. Trigger closed: founder
+confirmed the tool works as intended on real PDFs; verification is backed
+by the versioned test suite ported into `Tools/pdf-forge-extension/`.
+Progress on the original 3-in-48h bar was 1 of 3 within the window
+(Blender manual); completed late via continued real use — noted honestly
+in the debrief.

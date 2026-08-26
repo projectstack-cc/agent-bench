@@ -35,8 +35,29 @@ npm run vendor       # copies build files into vendor/
 Then load unpacked (`Tools/pdf-forge-extension/`) at
 `chrome://extensions` with Developer Mode enabled.
 
+## Name & publication status (2026-08-26)
+
+**"PDF Forge" cannot be used as the public listing name.** The Chrome Web
+Store already has three same-name/same-category listings ("PDF Forge",
+"PDFForge Reader", "PDF Forge — PDF Compressor"), and `pdfforge` is an
+established company (the PDFCreator makers). Internal code name
+(`Tools/pdf-forge*`, this repo's slug) is unaffected — rename needed only
+for the CWS listing title when submitting.
+
+Publication plan: free-only v1 listing. Chrome Web Store payments are
+deprecated, so no charging through the store ever — paid tier later via an
+embedded license provider (e.g. ExtensionPay) plus a privacy-policy URL
+(CWS requirement even for free extensions; a GitHub Pages page suffices).
+No full storefront needed.
+
+## Icon
+
+Canonical mark: `icons/icon.svg` (anvil with sparks). CWS/manifest icons
+must be bitmaps — rasterize to 16/48/128 px PNG before submission.
+
 ## Confidence
 
 **Medium-High.** Engine logic is a direct port of working, debrief-tracked
-code; extension scaffolding is standard MV3 but untested until loaded in
-Chrome with real PDFs — same bar as the CLI's original 3-real-PDF pass.
+code now guarded by tests; extension scaffolding is standard MV3 but
+untested until loaded in Chrome with real PDFs — same bar as the CLI's
+original 3-real-PDF pass.
