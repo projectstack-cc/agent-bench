@@ -1,9 +1,19 @@
-# pdf-forge-extension
+# pdf-forge-extension — **ForgeMark**
 
 Chrome extension (Manifest V3): convert any PDF to clean Markdown,
 **entirely locally** — right-click a PDF link or page, or drag-drop into
 the popup. Zero network calls. Privacy is the differentiator: most web
 "PDF to Markdown" converters upload your document to their server.
+
+> **Brand: ForgeMark.** Internal code name stays `pdf-forge` (repo slug,
+> deployment history); all user-facing surfaces say ForgeMark. Name
+> verified 2026-08-26: zero Chrome Web Store listings for "forgemark"
+> vs. three conflicting "PDF Forge"/"PDFForge" listings plus the
+> established pdfforge company — "PDF Forge" is unusable publicly.
+> "MarkForge" was also rejected (existing CWS Markdown-conversion
+> extension + Markforged trademark). Known accepted risk: `entireio/
+> forgemark` (~35★ GitHub, markdown commenting tool) exists but is not
+> on CWS and is in a different niche.
 
 ## Architecture
 
@@ -37,18 +47,12 @@ Then load unpacked (`Tools/pdf-forge-extension/`) at
 
 ## Name & publication status (2026-08-26)
 
-**"PDF Forge" cannot be used as the public listing name.** The Chrome Web
-Store already has three same-name/same-category listings ("PDF Forge",
-"PDFForge Reader", "PDF Forge — PDF Compressor"), and `pdfforge` is an
-established company (the PDFCreator makers). Internal code name
-(`Tools/pdf-forge*`, this repo's slug) is unaffected — rename needed only
-for the CWS listing title when submitting.
-
-Publication plan: free-only v1 listing. Chrome Web Store payments are
-deprecated, so no charging through the store ever — paid tier later via an
-embedded license provider (e.g. ExtensionPay) plus a privacy-policy URL
-(CWS requirement even for free extensions; a GitHub Pages page suffices).
-No full storefront needed.
+**Public name decided: ForgeMark** (see banner above). Publication plan:
+free-only v1 listing. Chrome Web Store payments are deprecated, so no
+charging through the store ever — paid tier later via an embedded license
+provider (e.g. ExtensionPay) plus a privacy-policy URL (CWS requirement
+even for free extensions; a GitHub Pages page suffices). No full
+storefront needed.
 
 ## Icon
 

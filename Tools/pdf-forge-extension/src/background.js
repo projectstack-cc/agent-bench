@@ -12,7 +12,7 @@ const MENU_ID = 'pdf-forge-convert';
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: MENU_ID,
-    title: 'Convert to Markdown (PDF Forge)',
+    title: 'Convert to Markdown (ForgeMark)',
     contexts: ['link', 'page'],
   });
 });
@@ -70,6 +70,6 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId !== MENU_ID) return;
   const url = info.linkUrl || info.pageUrl || info.frameUrl;
   handleConversion(url, tab ? tab.id : null).catch(async (err) => {
-    await notify(tab ? tab.id : null, `✗ PDF Forge failed: ${err.message}`);
+    await notify(tab ? tab.id : null, `✗ ForgeMark failed: ${err.message}`);
   });
 });

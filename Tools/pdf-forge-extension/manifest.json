@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "PDF Forge — PDF to Markdown",
+  "name": "ForgeMark — PDF to Markdown",
   "version": "0.1.0",
   "description": "Convert any PDF to clean Markdown locally. Your files never leave your machine.",
   "permissions": ["contextMenus", "downloads", "storage"],
@@ -10,7 +10,7 @@
   },
   "action": {
     "default_popup": "src/popup.html",
-    "default_title": "PDF Forge"
+    "default_title": "ForgeMark"
   },
   "icons": {}
 }
