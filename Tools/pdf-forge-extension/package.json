@@ -1,0 +1,13 @@
+{
+  "name": "pdf-forge-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Convert any PDF to clean Markdown, entirely locally.",
+  "scripts": {
+    "vendor": "node scripts/vendor-pdfjs.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38"
+  }
+}
