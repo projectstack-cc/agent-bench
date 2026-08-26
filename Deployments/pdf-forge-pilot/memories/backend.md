@@ -39,6 +39,26 @@ this is common enough across the founder's real 3-PDF pass to warrant a
 heuristic refinement (e.g. requiring a following non-heading line before
 committing to heading status) before any `HQ/Skills/` promotion.
 
+## Scale test — Blender 4.3 Manual (5,476 pages)
+
+Founder sourced this one specifically (community-converted PDF of the
+official Blender manual, chosen partly to double as a real reference for
+`agent-art-dev`'s Eclipse Circuit work, not just a test artifact).
+Converted in 72.35s — ~13ms/page, which scaled to the original 10-page/5s
+target works out to ~0.13s. **Founder confirmed this timing as good** for
+a 1000+-page document — per-page throughput holds linearly at ~500x the
+scoped size rather than degrading, so the 5s bar was never really at risk.
+Quality held up too: 612 `[IMAGE: page X]` placeholders (~11% of pages,
+plausible for a screenshot-heavy manual), and a spot check of the
+geometry-nodes reference section showed the heading heuristic correctly
+promoting the manual's real repeating "Inputs / Properties / Outputs /
+Examples" structure — templated technical docs seem to be a better fit
+for this heuristic than the home-inspection report's free-form field
+labels were. Output sitting in `Recon/Blender 4.3 Manual - Blender
+Documentation Team.md`. **Resolved 2026-08-13: founder says this counts
+as 1 of 3** toward the debrief trigger — debrief runs after 2 more real
+PDFs (see `brief.md`'s Debrief section for the running count).
+
 ## Reusable pattern
 
 Table-run detection (3+ consecutive lines with a matching multi-space-

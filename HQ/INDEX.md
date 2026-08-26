@@ -105,6 +105,24 @@ directly, 2026-07-30 — see that deployment's `brief.md` for why it
 doesn't fit the usual bounded-mission shape). See that project's own
 `README.md`.
 
+**New, 2026-08-26.** `Projects/ForgeMark/` — the first output of the
+Court VI sell-first directive to reach shipped product form: a Manifest
+V3 Chrome extension converting PDFs to clean Markdown **entirely
+locally** (the privacy angle is the differentiator). Grew out of the
+pdf-forge-pilot internal CLI (`Tools/pdf-forge/` — see its debrief,
+2026-08-26, in `Deployments/pdf-forge-pilot/`); the engine was ported
+verbatim and is guarded by 9 tests including a real pdf.js end-to-end
+pass. Brand: **ForgeMark** ("PDF Forge" verified taken on CWS — three
+listings plus the established pdfforge company; "MarkForge" rejected on
+an existing extension + Markforged trademark; "forgemark" has zero CWS
+listings). Free-only v1 launch planned (CWS payments deprecated; Pro
+later via embedded license provider + the required privacy-policy page).
+**Its own independent git repo** (`/Projects/` gitignored in
+agent-bench, same pattern as AuditSafeAI), published at
+github.com/projectstack-cc/forgemark. Publication blockers remaining:
+founder real-PDF validation of the loaded unpacked extension, CWS
+developer account ($5 one-time), store listing copy.
+
 ## Deployments (`Deployments/`)
 
 **Project-level, 2026-07-30:** `eclipse-circuit` — open-ended,

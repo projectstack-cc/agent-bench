@@ -71,7 +71,7 @@ evaluates, not where the tool starts.
 
 **Written 2026-08-26** — see `debrief.md`. Trigger closed: founder
 confirmed the tool works as intended on real PDFs; verification is backed
-by the versioned test suite ported into `Tools/pdf-forge-extension/`.
+by the versioned test suite ported into `Projects/ForgeMark/`.
 Progress on the original 3-in-48h bar was 1 of 3 within the window
 (Blender manual); completed late via continued real use — noted honestly
 in the debrief.

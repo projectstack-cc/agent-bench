@@ -46,7 +46,7 @@ YAML frontmatter (`source`, `pages`, `converted_at`,
 
 ## Verification (added this pass)
 
-The engine was ported verbatim to `Tools/pdf-forge-extension/src/
+The engine was ported verbatim to `Projects/ForgeMark/src/
 converter.js` and is now guarded by 9 passing tests (8 heuristic unit
 tests + 1 true end-to-end: crafted PDF bytes → real pdf.js extraction →
 full `convert()`): headings, lists, table detection, ragged-table bullet
@@ -57,7 +57,7 @@ the port doubled as the missed early test pass.
 ## Downstream consequence: pdf-forge is becoming a product
 
 Founder directive (2026-08-26): pdf-forge ships publicly as a Chrome
-extension (MV3) — see `Tools/pdf-forge-extension/README.md`. Route was
+extension (MV3) — see `Projects/ForgeMark/README.md`. Route was
 chosen over a Windows GUI app (code-signing cost violates the
 zero-investment constraint; browser-context fits usage). **Critical
 publication blocker found while checking the name: "PDF Forge" /
