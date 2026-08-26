@@ -555,6 +555,80 @@ founder (or a reachable source) has real information asymmetry in,
 rather than a fifth blind external scan.
 
 
+## Researched and scored — Opportunity Court VI, micro tools beyond founder history (2026-08-26)
+
+**Confidence: Medium-High** — full board gauntlet against live evidence
+(HN Algolia revenue signals, degraded-search caveats noted per Constitution
+Rule 1). Full report: `Recon/opportunity-court-6-report-2026-08-26.md`.
+Context: convened on the founder's post-Court-V directive to broaden beyond
+history-adjacent domains entirely — content creation, gaming/PC builders,
+crypto mooted explicitly — under a minimal-to-zero-investment constraint,
+with SaaS shape itself declared an open question. Verdict framing from the
+court: **seven consecutive opportunity sessions have ended without shipping
+a payment link; demand evidence comes from buyer exposure, not more board
+deliberation.**
+
+Dispositions:
+
+- **GO (conditional, portfolio-shaped): local-first file utilities +
+  non-developer-facing extension utilities.** Checkout-first, not
+  build-first: pdf-forge (and siblings in its shape) get landing pages +
+  Gumroad/Stripe one-time pricing *before any further code*. Evidence for
+  the class: CSS Scan (~$70K lifetime, solo, one-time purchase), pdf-forge
+  exemplar. Gate: non-developer sufferers only (`patterns.md`'s Batch AI
+  buyer-skew lesson is a hard admission filter).
+- **HOLD: game-dev micro-tooling.** Proven niche spend exists (SFX Engine
+  ≈ $2K MRR, publicly shared) but modest ceiling and love-driven
+  competition; revisits only after the checkout-first play produces either
+  revenue or a validated pain.
+- **REJECTED: content-creation micro-tools** — saturated, AI-platform
+  absorption risk; fails the "paste-it-into-your-AI" felt-value filter.
+- **REJECTED: PC-builder/hardware-buyer tools** — prior art confirmed
+  (pc-kombo, AI PC-build tools); distribution depends on SEO/affiliate
+  channels incompatible with founder constraints.
+- **REJECTED: cryptocurrency tools (incl. the satirical own-coin option)** —
+  dead demand signal on HN (launches registering ~2 points), compliance
+  adjacency, regulatory exposure on own-coin issuance. Filed so this
+  territory isn't re-scanned without materially new information.
+
+**Process finding (the court's primary deliverable):** default flips to
+*sell first → build on click-through → analyze failures*. codified as a
+proposed standing rule in `patterns.md` (smoke-test gate).
+
+
+## Researched and rejected — Opportunity Court V, all counts NO-GO (2026-08-25)
+
+**Confidence: High** — this court's GO verdicts were amended to NO-GO
+post-session: rank 2 died on the founder's direct challenge, rank 1 died on
+follow-up verification. Full report incl. amended verdict:
+`Recon/opportunity-court-5-report-2026-08-25.md`. Recorded so nothing here
+is re-scored without new information.
+
+- **NestAPI** — sell the founder's proven bin-packing engine as a self-serve
+  nesting API for small laser/CNC shops; the only candidate in five courts
+  built on an already-working owned asset. **Downgraded GO → conditional →
+  deprioritized:** the app tier is closed by production-grade free
+  incumbents (`deepnest-next` MIT/actively-maintained, SVGnest claiming
+  commercial parity); the *API* gap is formally unknown, not open — the one
+  search session that could verify it was bot-blocked end-to-end. Not
+  killed permanently: it remains the best single asset-backed candidate on
+  file, but the founder directed the next court entirely away from
+  history-adjacent domains, so the four-check spike is parked, not
+  scheduled.
+- **BYOK Batch AI workbench** — bring-your-own-key batch LLM operations over
+  CSVs/docs at $49 one-time, pitched as the fastest possible first dollar.
+  **Killed by founder challenge post-court:** its value-add over "upload it
+  to ChatGPT/Claude and say 'do this'" must be argued, not felt; buyers with
+  real scale are builders who script it themselves. Promoted the generalized
+  filter now standing in `patterns.md`.
+- **BYOK usage dashboard, pdf-forge productized** — rejected in-court
+  (saturation; free equivalents everywhere respectively).
+
+**step3-ai note:** Court V found BYOK structurally satisfies its icebox
+formula, but demand was never validated — icebox stands unchanged.
+
+---
+
 ## Researched and rejected — technology-enabled whitespace discovery, Court IV (2026-08-04)
 
 **Confidence: High.** Three candidates from Opportunity Court IV that did

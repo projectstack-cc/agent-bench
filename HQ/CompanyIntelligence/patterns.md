@@ -28,6 +28,53 @@ UX the customer wouldn't bother building themselves) before treating BYOK
 as a viable cost-mitigation — it's a red flag for weak differentiation as
 much as it's a pricing lever.
 
+**Amended 2026-08-25 (Opportunity Court V post-court challenge):** the
+pattern has **two joint conditions, not one** — BYOK kills a product only
+when value-add is thin AND the customer could realistically rebuild the
+workflow themselves. Most key-holders never write a batching script; BYOK
+is simultaneously the strongest available mitigation for AI-API cold-start
+cost (the exact condition that killed step3-ai). The two halves of this
+file had been read separately for months without being weighed against
+each other on the same candidate. See also the new pattern below —
+Batch AI died anyway, because the *non-BYOK* framing failed a simpler test.
+
+## A candidate whose value-add over "paste it into the AI you already pay for" needs explaining is auto-suspect
+
+**Confidence: High** — promoted to a standing first-pass filter following
+Opportunity Court V (2026-08-25), where the founder's direct challenge
+killed the board's #2-ranked candidate (BYOK Batch AI workbench) after the
+court had cleared it. The failure shape: a tool whose honest pitch begins
+with "but chat interfaces drop rows / hit usage limits / cost more at
+scale." That is an argument, not felt pain — and products you must argue
+people into don't convert at impulse price. Compounding channel problem:
+buyers with genuinely large-scale needs discover tools on HN/GitHub, i.e.
+builder-class buyers who will script it themselves; non-builders with bulk
+needs don't frequent launch venues. **Standing rule for any AI-adjacent
+candidate going forward:** before scoring, name the buyer who pays without
+hedging. If you can't complete the sentence "___ pays $X even though they
+already pay $20/mo for an AI assistant, because ___" with something felt
+rather than argued, kill it pre-scoring. This filter would have caught the
+Batch AI kill days before the court convened.
+
+## Nesting/cutting optimization: app tier closed by a good free incumbent — rare and decisive
+
+**Confidence: Medium-High** — verified in the 2026-08-25 post-Court-V
+research pass (`Recon/opportunity-court-5-report-2026-08-25.md`, amended
+verdict). Distinct from every prior "already served" finding in one way:
+in most rejected markets the free tier is a token fallback (templates,
+freemium limits). Here the free tier is *genuinely production-grade* —
+`deepnest-next` (MIT, actively maintained, signed builds) and SVGnest
+(2.6k stars, claims commercial-parity results in its README). When the
+free incumbent is hobbyist-maintained but production-credible, an app-
+shaped entrant has no wedge at any price point, including free-plus-
+support. **Implication for future scans:** classify rejected markets not
+just by "has competitors" but by free-incumbent *quality*; markets with a
+production-credible free incumbent are categorically harder than markets
+with merely crowded paid tiers — and conversely, "crowded paid tier +
+weak/toy free tier" remains a possible execution-quality opening. The
+nesting **API/engine licensing** question was left formally unknown
+(search tooling failed that session), not open.
+
 ## AI-API-cost cold start — a real, named risk category
 
 **Confidence: High** — the actual, confirmed reason `step3-ai` was
@@ -328,6 +375,26 @@ and search for product categories that are now technically possible but
 haven't been built yet. This doesn't replace demand-side methods — it
 complements them. Demand-side verifies competitive crowding; technology-
 push originates candidates that demand-side can't.
+
+## Smoke-test gate: no build past scaffolding until a buy button exists
+
+**Confidence: High as a rule, Medium-High on its efficacy until first use**
+— proposed by Opportunity Court VI (2026-08-26,
+`Recon/opportunity-court-6-report-2026-08-26.md`), adopted on the founder's
+standing rethinking-the-process directive. Seven consecutive opportunity
+sessions (Courts I–VI + intervening research passes) concluded without ever
+shipping a payment link — analysis kept producing findings while dollars
+stayed at zero. Rule: **every future candidate must pass a landing page +
+working "buy" button exposed to at least one relevant community *before*
+any build beyond scaffolding.** If nobody clicks buy on a page, nobody buys
+a product — and the click data costs an afternoon, not two weekends.
+Applies to revived back-catalog items too (pdf-forge gets a price tag
+before new code). Demand-side companion to the filters above: those filter
+*what* gets pitched; this gates *when anything gets built*. Note the
+degraded-evidence kicker that motivated it: search sessions keep failing
+(bot-walls), so competitive certainty is getting *harder* to buy — buyer
+exposure is the evidence source that doesn't require working search
+tooling.
 
 ## Historical note, not a live pattern
 

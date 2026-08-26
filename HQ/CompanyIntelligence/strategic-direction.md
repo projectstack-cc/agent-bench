@@ -6,6 +6,58 @@ forecast.
 
 ---
 
+## CURRENT DIRECTION (2026-08-25): broaden beyond founder-history sourcing; micro tools, zero-investment constraint; SaaS shape itself under review
+
+Supersedes the sections below as the active mandate. Two triggers, both
+2026-08-25:
+
+1. **Opportunity Court V amended to NO-GO on all counts post-session**
+   (`Recon/opportunity-court-5-report-2026-08-25.md`): BYOK Batch AI killed
+   by the founder's own "can't they just paste it into ChatGPT?" challenge;
+   NestAPI deprioritized after verification that nesting's app tier is
+   closed by production-grade free incumbents (deepnest-next, SVGnest) and
+   the API tier is unverifiable with working search tooling. step3-ai
+   icebox unchanged.
+2. **Founder directive, same day:** seven-plus research passes and five
+   courts have produced zero dollars. Candidates sourced from founder-
+   history-adjacent domains are exhausted for now. The next court targets
+   **micro tools/extensions in markets unrelated to the founder's history**
+   — content creation, gaming, cryptocurrency mooted explicitly by the
+   founder — using `Tools/pdf-forge` as the exemplar build-shape: small,
+   self-contained, fast to ship. Hard constraint: minimal-to-no investment.
+   Founder additionally flagged, verbatim in substance: *"we may have to
+   start rethinking our process... SaaS may no longer be the best end
+   game."* The product *shape* question (subscription SaaS vs one-time
+   micro-tools vs marketplace/plugin distribution vs other) is now an open
+   court-level question, not a settled default.
+
+Standing context this does NOT change: the $5K/mo portfolio-income thesis,
+the no-audience/no-content-treadmill/no-ad-budget constraints, the VFFI GO
+from Court IV (parked alongside NestAPI, not rescinded), and every standing
+rejection in `products.md` — including the 2026-07-20 PC-gaming scan, which
+any new gaming candidate must distinguish itself from rather than re-scan
+blindly.
+
+### Outcome (2026-08-26): Court VI executed this mandate
+
+`Recon/opportunity-court-6-report-2026-08-26.md`. Net effect on direction:
+
+- **Active play:** checkout-first micro-tools portfolio — pdf-forge gets a
+  pay link before any new code; every future candidate passes a
+  landing-page/buy-button smoke test *before* building
+  (`patterns.md` standing rule).
+- **Territories closed:** content creation, PC-builder tools, crypto
+  (incl. own coin) — filed researched-and-rejected in `products.md`.
+- **On hold:** game-dev micro-tools (only proven niche spend found — SFX
+  Engine ≈ $2K MRR — but behind the same smoke-test gate).
+- **Shape answer, partial:** one-time-purchase micro tools over
+  subscription SaaS as the *first-dollar* mechanism; final end-game shape
+  stays open until real buy-click data exists.
+
+---
+
+## Prior direction (superseded as of 2026-08-25, retained for record): what generates supporting revenue first?
+
 ## Open strategic question, current as of 2026-07-17: what generates supporting revenue first?
 
 `step3-ai` — Opportunity Court II's top-ranked candidate — is **iceboxed**,

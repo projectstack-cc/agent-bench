@@ -130,11 +130,52 @@ research transcripts: `opportunity-court-1-report-2026-07-15.md`,
 `business-functions-overhead-research-2026-07-20.md`,
 `claude-artifacts-scan-2026-07-27.md`,
 `unmet-demand-search-2026-07-27.md`,
-`opportunity-court-4-report-2026-08-04.md`. See
+`opportunity-court-4-report-2026-08-04.md`,
+`opportunity-court-5-report-2026-08-25.md`,
+`opportunity-court-6-report-2026-08-26.md`. See
 `HQ/CompanyIntelligence/project-history.md` for summary entries.
 
 ## Recently changed
 
+- 2026-08-26 — **Opportunity Court VI: micro-tools court run per founder
+  mandate; zero GOs, but the verdict is a process change, not another
+  rejection.** First court convened entirely on candidates unrelated to
+  founder history (content creation, gaming/PC-builder, crypto mooted by
+  founder; `Tools/pdf-forge` as build-shape exemplar; hard zero-investment
+  constraint). Six candidates evaluated from live HN Algolia research;
+  territories closed: content creation, PC-builder tools, crypto tools
+  *and* the own-cryptocurrency idea specifically (crypto launches register
+  ~2 HN points — dead), all filed researched-and-rejected in
+  `products.md`. Game-dev micro-tools held as the only niche with proven
+  spend found (SFX Engine ≈ $2K MRR precedent, browser-extension one-time
+  purchase precedent: CSS Scan ~$70K) but behind the new gate. **The real
+  output:** after seven-plus passes and six courts with zero revenue,
+  QA-Critic's structural finding stood — every prior session ended in
+  research, none ended in a payment link. Verdict flips the default:
+  **sell first, build on click-through** — every future candidate
+  (including pdf-forge itself, which gets a pay link before any new code)
+  must pass a landing-page/buy-button smoke test before any build. New
+  standing rule in `patterns.md`; direction operationalized in
+  `strategic-direction.md`. One-time-purchase micro-tools adopted as the
+  first-dollar mechanism over subscription SaaS; final end-game shape
+  stays open until buy-click data exists.
+  Full report: `Recon/opportunity-court-6-report-2026-08-26.md`.
+- 2026-08-25 — **Opportunity Court V amended to NO-GO on all counts;
+  strategic direction broadened by founder directive.** Court V
+  (`Recon/opportunity-court-5-report-2026-08-25.md`) had ranked NestAPI GO
+  and BYOK Batch AI GO-as-time-boxed-experiment; post-session, the founder's
+  direct challenge killed Batch AI ("who pays $49 when they already pay for
+  AI?") — promoted to a standing demand filter in `patterns.md` ("value-add
+  over paste-it-into-your-AI must be felt, not argued"). Follow-up
+  verification then deprioritized NestAPI: nesting's app tier is closed by
+  production-grade free incumbents (deepnest-next, SVGnest), API tier left
+  formally unknown after bot-blocked searches. `products.md` files both as
+  rejected; step3-ai icebox unchanged; VFFI (Court IV) parked, not
+  rescinded. **New active mandate in `strategic-direction.md`:** next court
+  targets micro tools/extensions unrelated to founder history (content
+  creation, gaming, crypto mooted), pdf-forge as build-shape exemplar,
+  zero-investment constraint, with SaaS itself now an open question rather
+  than the default end-game shape.
 - 2026-08-04 — **Opportunity Court IV verdict: GO on Voice-First Field
   Intelligence (VFFI) as a research candidate, not a build commitment.**
   First court to use technology-enabled whitespace discovery — a new
