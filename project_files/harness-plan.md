@@ -412,6 +412,66 @@ agent-bench/
 
 ---
 
+## Phase 4.5: Workspace (Open Folder) — VS Code-style folder mode
+
+**Goal:** Open any folder on disk (not just the vault) as a working directory — file tree in a new
+Explorer panel, click-to-preview file content, and agent execution (`claude` CLI) runs with that
+folder as its `cwd`. Kept as a concept separate from the vault: vault = agent brain (Agents/Projects/
+Memories, fixed in Settings), workspace = the hands (whatever folder is open, drives execution cwd).
+
+### What shipped
+- `@tauri-apps/plugin-dialog` added (native folder picker) + Rust plugin registration in `lib.rs`
+- `fs:scope` broadened to `{"path": "**"}` so arbitrary user-chosen folders are readable (personal
+  desktop tool — full-disk-access model like VS Code, not a sandboxed multi-user app)
+- `src/engine/workspace/fs.ts` — `pickFolder()`, `listDir()` (lazy, dirs-first, hides `.git`/
+  `node_modules`/`target`/`.cargo`), `readWorkspaceFile()`
+- Store: `workspaceRoot`, `workspaceEntries` (lazy per-dir cache), `expandedDirs`, `selectedFilePath`,
+  `fileContent`; actions `openFolder()`, `toggleDir()`, `openFile()`
+- `ExplorerPanel.tsx` — recursive tree, stacked above `AgentSidebar` in the left column
+- `FilePanel.tsx` — read-only file preview, third center tab ("File") alongside Prompt Preview /
+  Execution Output
+- `executeWithClaude`/`runClaude` now accept `cwd`; `execute()`/`followUp()` pass `workspaceRoot`
+- StatusBar shows the open workspace path
+
+### Explicitly deferred (not in this pass)
+- No code editor (Monaco) — file view is read-only preview only
+- No save/write-back, no multi-root workspaces, no search-across-files
+- No `.gitignore`-aware filtering (only a fixed hide-list)
+
+### Debug Gate
+Open Folder → tree renders → click a file → content shows in File tab → Execute runs `claude` with
+that folder as cwd (verify via a prompt like "list files in this directory").
+
+---
+
+## Backlog (not scheduled — architecture not settled yet)
+
+- **Rebrand to "Project Xyril"** — give the harness an entity/persona identity (Jarvis-style — "Xyril"
+  as the name behind the assistant, not just "Agent Harness" as a tool). Revisit once core
+  architecture (Phases 5–8) is stable; naming/identity work now would be premature relative to the
+  plumbing still in flight.
+
+- **Delta-aware scraper on app open** — a modified `obsidian_scraper.py` that only re-scrapes
+  files changed since its last run (mtime/hash check), run automatically each time the harness opens
+  so the vault's indexed state stays current without a full re-scrape every time. Supersedes/answers
+  Open Question #2 below once built. Needs the vault reorg (this session, librarian pass) done first
+  so there's a stable structure to diff against.
+
+- **Ever-evolving agents** — agents that improve at their specialty over time rather than staying
+  static prompt+definition files. Likely builds on Phase 7 (Memory Promotion Pipeline) — the
+  mechanism for turning session outcomes into durable learnings is the same mechanism that would let
+  an agent's definition/memory get measurably better with use. Not scoped yet; revisit once Phase 7
+  is underway rather than designing it cold now.
+
+- **CEO "hire a new agent"** — when the CEO detects a need for a new specialist (no existing agent
+  fits a task's domain), it should be able to trigger a "hiring" flow: dispatch the `research` agent
+  to search GitHub for existing agent definitions/prompts that fit the gap, evaluate candidates, and
+  adapt the best fit into a new `Agents/agent-{name}.md` definition instead of writing one from
+  scratch. Depends on the Workflow Engine (Phase 8) to have somewhere to run a multi-step
+  research → draft → review flow; not buildable as a one-off action today.
+
+---
+
 ## Open Questions (not blockers)
 
 1. **Auto-routing badge vs manual-only** — CEO suggests agent based on task keywords, or always manual picker?

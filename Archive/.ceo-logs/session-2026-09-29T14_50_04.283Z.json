@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-29T14:50:04.283Z",
+  "agent": "research",
+  "project": "general",
+  "task": "Name the single most important rule in the Global Constitution. One line, no preamble.",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 17068,
+  "responseLengthChars": 149,
+  "memoriesInjected": 3,
+  "challenges": [],
+  "durationMs": 18613,
+  "verdict": "verified"
+}

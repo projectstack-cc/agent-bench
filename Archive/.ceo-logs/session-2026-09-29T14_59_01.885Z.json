@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-29T14:59:01.885Z",
+  "agent": "qa-critic",
+  "project": "general",
+  "task": "Name the two QA rules you must always follow. Two lines, no preamble.",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 16112,
+  "responseLengthChars": 179,
+  "memoriesInjected": 2,
+  "challenges": [],
+  "durationMs": 35469,
+  "verdict": "verified"
+}

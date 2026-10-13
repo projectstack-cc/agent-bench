@@ -8,6 +8,15 @@ node_modules/
 .env.local
 .env.production
 
+# Stray Windows NUL-redirect artifact (a literal file named "nul", created
+# when output is redirected to NUL on some shells). Never meaningful.
+/nul
+
+# Transient tooling logs.
+.playwright-mcp/
+.claude/scheduled_tasks.lock
+
 # Each Projects/{name}/ is its own independent git repo, not part of
 # agent-bench's history -- see Projects/AuditSafeAI/planning/decisions.md.
 /Projects/
+

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-29T14:37:02.182Z",
+  "agent": "research",
+  "project": "general",
+  "task": "In one sentence: what is this repository for? Read the top-level README-adjacent docs if useful. Be brief.",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 17108,
+  "responseLengthChars": 0,
+  "memoriesInjected": 3,
+  "challenges": [],
+  "durationMs": 64,
+  "verdict": "failed"
+}

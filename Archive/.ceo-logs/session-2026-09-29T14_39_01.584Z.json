@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-29T14:39:01.584Z",
+  "agent": "research",
+  "project": "general",
+  "task": "Read Recon/README.md and summarize it.",
+  "apiRouting": "haiku",
+  "vaultMode": "direct",
+  "promptLengthChars": 16972,
+  "responseLengthChars": 1642,
+  "memoriesInjected": 3,
+  "challenges": [],
+  "durationMs": 18395,
+  "verdict": "failed"
+}
